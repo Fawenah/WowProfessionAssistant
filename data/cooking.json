@@ -2,7 +2,7 @@
   "profession": "cooking",
   "skill_id": 185,
   "url": "https://www.wowhead.com/forever/skill=185/cooking",
-  "scraped_at": "2026-10-04T19:09:16.574148+00:00",
+  "scraped_at": "2026-11-04T17:36:04.711314+00:00",
   "recipes": [
     {
       "id": 18247,
@@ -169,9 +169,9 @@
       },
       "skill_ranges": {
         "orange": 275,
-        "yellow": 275,
-        "green": 290,
-        "gray": 305
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
       "learned_at": 275,
       "source": [],
@@ -335,9 +335,9 @@
       },
       "skill_ranges": {
         "orange": 75,
-        "yellow": 75,
-        "green": 92,
-        "gray": 110
+        "yellow": 80,
+        "green": 87,
+        "gray": 95
       },
       "learned_at": 75,
       "source": [
@@ -529,7 +529,7 @@
         "green": 65,
         "gray": 85
       },
-      "learned_at": 0,
+      "learned_at": 45,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -586,10 +586,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 0,
-        "green": 0,
-        "gray": 275
+        "orange": 275,
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
       "learned_at": 275,
       "source": [],
@@ -682,9 +682,9 @@
       },
       "skill_ranges": {
         "orange": 140,
-        "yellow": 140,
-        "green": 142,
-        "gray": 145
+        "yellow": 145,
+        "green": 147,
+        "gray": 150
       },
       "learned_at": 140,
       "source": [
@@ -932,38 +932,6 @@
       ]
     },
     {
-      "id": 470359,
-      "name": "Darkclaw Bisque",
-      "creates": {
-        "item_id": 232436,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 300,
-        "yellow": 325,
-        "green": 345,
-        "gray": 365
-      },
-      "learned_at": 300,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 13888,
-          "name": "Darkclaw Lobster",
-          "quantity": 1
-        },
-        {
-          "item_id": 227813,
-          "name": "Drinkable Stratholme Holy Water",
-          "quantity": 1
-        }
-      ]
-    },
-    {
       "id": 6417,
       "name": "Dig Rat Stew",
       "creates": {
@@ -1153,9 +1121,9 @@
       },
       "skill_ranges": {
         "orange": 200,
-        "yellow": 200,
+        "yellow": 205,
         "green": 212,
-        "gray": 225
+        "gray": 220
       },
       "learned_at": 200,
       "source": [],
@@ -1422,12 +1390,12 @@
         "max_qty": 4
       },
       "skill_ranges": {
-        "orange": 175,
+        "orange": 0,
         "yellow": 215,
         "green": 235,
         "gray": 255
       },
-      "learned_at": 175,
+      "learned_at": 215,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -1822,12 +1790,14 @@
       },
       "skill_ranges": {
         "orange": 90,
-        "yellow": 90,
-        "green": 115,
-        "gray": 140
+        "yellow": 95,
+        "green": 100,
+        "gray": 105
       },
       "learned_at": 90,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -2296,9 +2266,9 @@
       },
       "skill_ranges": {
         "orange": 25,
-        "yellow": 25,
-        "green": 45,
-        "gray": 65
+        "yellow": 30,
+        "green": 37,
+        "gray": 45
       },
       "learned_at": 25,
       "source": [
@@ -2327,9 +2297,9 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 35,
-        "green": 42,
+        "orange": 35,
+        "yellow": 40,
+        "green": 47,
         "gray": 55
       },
       "learned_at": 35,
@@ -2448,10 +2418,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 275,
-        "green": 280,
-        "gray": 300
+        "orange": 275,
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
       "learned_at": 275,
       "source": [],
@@ -2508,12 +2478,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 0,
-        "green": 0,
-        "gray": 275
+        "orange": 180,
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
-      "learned_at": 275,
+      "learned_at": 180,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -2566,9 +2536,9 @@
       },
       "skill_ranges": {
         "orange": 225,
-        "yellow": 225,
+        "yellow": 230,
         "green": 237,
-        "gray": 250
+        "gray": 245
       },
       "learned_at": 225,
       "source": [],
@@ -2665,7 +2635,7 @@
         "green": 65,
         "gray": 85
       },
-      "learned_at": 0,
+      "learned_at": 45,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -2750,7 +2720,9 @@
         "gray": 185
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -2774,9 +2746,9 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 100,
-        "green": 105,
+        "orange": 100,
+        "yellow": 105,
+        "green": 115,
         "gray": 125
       },
       "learned_at": 100,
@@ -2933,9 +2905,9 @@
       },
       "skill_ranges": {
         "orange": 225,
-        "yellow": 225,
-        "green": 240,
-        "gray": 255
+        "yellow": 230,
+        "green": 237,
+        "gray": 245
       },
       "learned_at": 225,
       "source": [],
@@ -2962,10 +2934,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 275,
-        "green": 280,
-        "gray": 300
+        "orange": 275,
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
       "learned_at": 275,
       "source": [],
@@ -3084,9 +3056,9 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 25,
-        "green": 32,
+        "orange": 25,
+        "yellow": 30,
+        "green": 37,
         "gray": 45
       },
       "learned_at": 25,
@@ -3116,10 +3088,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 0,
-        "green": 0,
-        "gray": 100
+        "orange": 100,
+        "yellow": 105,
+        "green": 112,
+        "gray": 120
       },
       "learned_at": 100,
       "source": [
@@ -3207,12 +3179,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 285,
+        "orange": 0,
         "yellow": 325,
         "green": 345,
         "gray": 365
       },
-      "learned_at": 285,
+      "learned_at": 325,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -3224,33 +3196,6 @@
         {
           "item_id": 3713,
           "name": "Soothing Spices",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 470370,
-      "name": "Smoked Redgill",
-      "creates": {
-        "item_id": 232438,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 300,
-        "yellow": 325,
-        "green": 345,
-        "gray": 365
-      },
-      "learned_at": 300,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 13758,
-          "name": "Raw Redgill",
           "quantity": 1
         }
       ]
@@ -3297,8 +3242,8 @@
       },
       "skill_ranges": {
         "orange": 275,
-        "yellow": 275,
-        "green": 292,
+        "yellow": 280,
+        "green": 295,
         "gray": 310
       },
       "learned_at": 275,
@@ -3578,10 +3523,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 275,
-        "green": 280,
-        "gray": 300
+        "orange": 275,
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
       "learned_at": 275,
       "source": [],
@@ -3740,7 +3685,9 @@
         "gray": 285
       },
       "learned_at": 275,
-      "source": [],
+      "source": [
+        5
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3764,10 +3711,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 0,
-        "green": 0,
-        "gray": 275
+        "orange": 275,
+        "yellow": 280,
+        "green": 295,
+        "gray": 310
       },
       "learned_at": 275,
       "source": [],
@@ -3960,6 +3907,7 @@
       },
       "learned_at": 75,
       "source": [
+        2,
         4
       ],
       "cooldown_seconds": null,
@@ -4022,10 +3970,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 0,
-        "green": 0,
-        "gray": 25
+        "orange": 25,
+        "yellow": 30,
+        "green": 37,
+        "gray": 45
       },
       "learned_at": 25,
       "source": [
@@ -4097,10 +4045,10 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 0,
-        "green": 250,
-        "gray": 250
+        "orange": 250,
+        "yellow": 255,
+        "green": 262,
+        "gray": 270
       },
       "learned_at": 250,
       "source": [
@@ -4344,7 +4292,7 @@
     },
     "2678": {
       "name": "Mild Spices",
-      "sell_price": 0,
+      "sell_price": 2,
       "buy_price": 10,
       "orgrimmar_vendor": true
     },
@@ -5198,21 +5146,6 @@
       "sell_price": 125,
       "buy_price": 0
     },
-    "227813": {
-      "name": "Drinkable Stratholme Holy Water",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "232436": {
-      "name": "Darkclaw Bisque",
-      "sell_price": 100,
-      "buy_price": 0
-    },
-    "232438": {
-      "name": "Smoked Redgill",
-      "sell_price": 5,
-      "buy_price": 0
-    },
     "239016": {
       "name": "Holy Salts",
       "sell_price": 0,
@@ -5829,16 +5762,6 @@
       "sell_price": 1250,
       "buy_price": 5000
     },
-    "232437": {
-      "name": "Recipe: Darkclaw Bisque",
-      "sell_price": 5000,
-      "buy_price": 20000
-    },
-    "232443": {
-      "name": "Recipe: Smoked Redgill",
-      "sell_price": 4000,
-      "buy_price": 16000
-    },
     "238645": {
       "name": "Recipe: Prowler Steak",
       "sell_price": 1875,
@@ -5871,7 +5794,7 @@
     },
     "249879": {
       "name": "Recipe: Peace Tea",
-      "sell_price": 1875,
+      "sell_price": 10,
       "buy_price": 0
     },
     "249880": {
@@ -5931,7 +5854,7 @@
     },
     "250173": {
       "name": "Recipe: Savory Stag Sliders",
-      "sell_price": 0,
+      "sell_price": 5000,
       "buy_price": 0
     },
     "250174": {
@@ -6051,8 +5974,8 @@
     },
     "274415": {
       "name": "Recipe: Sweetpaw Jam",
-      "sell_price": 0,
-      "buy_price": 0
+      "sell_price": 1000,
+      "buy_price": 5000
     },
     "274972": {
       "name": "Recipe: Briny Seafood Stew",

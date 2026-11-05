@@ -2,7 +2,7 @@
   "profession": "first-aid",
   "skill_id": 129,
   "url": "https://www.wowhead.com/forever/skill=129/first-aid",
-  "scraped_at": "2026-10-04T19:11:32.195371+00:00",
+  "scraped_at": "2026-11-04T18:02:15.721805+00:00",
   "recipes": [
     {
       "id": 7934,
@@ -69,29 +69,35 @@
       ]
     },
     {
-      "id": 470349,
-      "name": "Dense Runecloth Bandage",
+      "id": 1230117,
+      "name": "First Aid Kit",
       "creates": {
-        "item_id": 232433,
+        "item_id": 279968,
         "min_qty": 1,
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 315,
-        "green": 327,
-        "gray": 340
+        "orange": 20,
+        "yellow": 20,
+        "green": 22,
+        "gray": 25
       },
-      "learned_at": 315,
+      "learned_at": 20,
       "source": [
-        5
+        4,
+        6
       ],
       "cooldown_seconds": null,
       "reagents": [
         {
-          "item_id": 14530,
-          "name": "Heavy Runecloth Bandage",
-          "quantity": 2
+          "item_id": 1251,
+          "name": "Linen Bandage",
+          "quantity": 3
+        },
+        {
+          "item_id": 159,
+          "name": "Refreshing Spring Water",
+          "quantity": 1
         }
       ]
     },
@@ -110,7 +116,9 @@
         "gray": 215
       },
       "learned_at": 175,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -139,12 +147,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 110,
         "yellow": 135,
         "green": 155,
         "gray": 175
       },
-      "learned_at": 135,
+      "learned_at": 110,
       "source": [
         6
       ],
@@ -203,7 +211,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 240,
+        "orange": 0,
         "yellow": 240,
         "green": 270,
         "gray": 300
@@ -228,7 +236,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
+        "orange": 0,
         "yellow": 290,
         "green": 320,
         "gray": 350
@@ -253,7 +261,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 180,
+        "orange": 0,
         "yellow": 180,
         "green": 210,
         "gray": 240
@@ -337,12 +345,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 55,
         "yellow": 85,
         "green": 105,
         "gray": 125
       },
-      "learned_at": 85,
+      "learned_at": 55,
       "source": [
         6
       ],
@@ -374,12 +382,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 30,
         "green": 45,
         "gray": 60
       },
-      "learned_at": 1,
+      "learned_at": 30,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -399,7 +407,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 210,
+        "orange": 0,
         "yellow": 210,
         "green": 240,
         "gray": 270
@@ -463,12 +471,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 1,
         "yellow": 55,
         "green": 75,
         "gray": 95
       },
-      "learned_at": 55,
+      "learned_at": 1,
       "source": [
         6
       ],
@@ -492,6 +500,41 @@
       ]
     },
     {
+      "id": 1263001,
+      "name": "Plague Doctor's Laboratory",
+      "creates": {
+        "item_id": 279951,
+        "min_qty": 1,
+        "max_qty": 1
+      },
+      "skill_ranges": {
+        "orange": 300,
+        "yellow": 300,
+        "green": 300,
+        "gray": 300
+      },
+      "learned_at": 300,
+      "source": [],
+      "cooldown_seconds": null,
+      "reagents": [
+        {
+          "item_id": 4470,
+          "name": "Simple Wood",
+          "quantity": 2
+        },
+        {
+          "item_id": 6453,
+          "name": "Strong Anti-Venom",
+          "quantity": 2
+        },
+        {
+          "item_id": 14530,
+          "name": "Heavy Runecloth Bandage",
+          "quantity": 5
+        }
+      ]
+    },
+    {
       "id": 1259341,
       "name": "Potent Anti-Venom",
       "creates": {
@@ -506,7 +549,9 @@
         "gray": 290
       },
       "learned_at": 230,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -587,7 +632,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 260,
+        "orange": 0,
         "yellow": 260,
         "green": 290,
         "gray": 320
@@ -639,7 +684,7 @@
         "max_qty": 3
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 90,
         "yellow": 90,
         "green": 125,
         "gray": 160
@@ -800,6 +845,43 @@
       ]
     },
     {
+      "id": 1262996,
+      "name": "Toxin Study",
+      "creates": {
+        "item_id": 279940,
+        "min_qty": 1,
+        "max_qty": 1
+      },
+      "skill_ranges": {
+        "orange": 140,
+        "yellow": 140,
+        "green": 142,
+        "gray": 145
+      },
+      "learned_at": 140,
+      "source": [
+        2
+      ],
+      "cooldown_seconds": null,
+      "reagents": [
+        {
+          "item_id": 6452,
+          "name": "Anti-Venom",
+          "quantity": 1
+        },
+        {
+          "item_id": 8544,
+          "name": "Mageweave Bandage",
+          "quantity": 2
+        },
+        {
+          "item_id": 4470,
+          "name": "Simple Wood",
+          "quantity": 2
+        }
+      ]
+    },
+    {
       "id": 3277,
       "name": "Wool Bandage",
       "creates": {
@@ -835,7 +917,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 120,
         "yellow": 120,
         "green": 155,
         "gray": 190
@@ -981,11 +1063,6 @@
       "sell_price": 1500,
       "buy_price": 0
     },
-    "232433": {
-      "name": "Dense Runecloth Bandage",
-      "sell_price": 2000,
-      "buy_price": 0
-    },
     "159": {
       "name": "Refreshing Spring Water",
       "sell_price": 1,
@@ -1005,7 +1082,7 @@
     },
     "2678": {
       "name": "Mild Spices",
-      "sell_price": 0,
+      "sell_price": 2,
       "buy_price": 10,
       "orgrimmar_vendor": true
     },
@@ -1257,11 +1334,6 @@
       "name": "Formula: Powerful Anti-Venom",
       "sell_price": 25000,
       "buy_price": 100000
-    },
-    "232434": {
-      "name": "Manual: Dense Runecloth Bandage",
-      "sell_price": 22000,
-      "buy_price": 110000
     },
     "255723": {
       "name": "Manual: Greater Healing Potion",

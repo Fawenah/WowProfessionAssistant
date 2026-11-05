@@ -2,7 +2,7 @@
   "profession": "enchanting",
   "skill_id": 333,
   "url": "https://www.wowhead.com/forever/skill=333/enchanting",
-  "scraped_at": "2026-10-04T19:09:49.787797+00:00",
+  "scraped_at": "2026-11-04T17:40:40.675597+00:00",
   "recipes": [
     {
       "id": 1263082,
@@ -188,43 +188,6 @@
       ]
     },
     {
-      "id": 463869,
-      "name": "Conductive Shield Coating",
-      "creates": {
-        "item_id": 228980,
-        "min_qty": 0,
-        "max_qty": 0
-      },
-      "skill_ranges": {
-        "orange": 275,
-        "yellow": 285,
-        "green": 295,
-        "gray": 305
-      },
-      "learned_at": 275,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 16204,
-          "name": "Illusion Dust",
-          "quantity": 2
-        },
-        {
-          "item_id": 4625,
-          "name": "Firebloom",
-          "quantity": 1
-        },
-        {
-          "item_id": 8925,
-          "name": "Crystal Vial",
-          "quantity": 1
-        }
-      ]
-    },
-    {
       "id": 1249114,
       "name": "Dormant Heart of the Mountain",
       "creates": {
@@ -233,12 +196,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 265,
         "yellow": 285,
         "green": 305,
         "gray": 325
       },
-      "learned_at": 285,
+      "learned_at": 265,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -417,7 +380,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 20,
         "yellow": 20,
         "green": 22,
         "gray": 25
@@ -482,12 +445,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 265,
         "yellow": 285,
         "green": 305,
         "gray": 325
       },
-      "learned_at": 285,
+      "learned_at": 265,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -655,43 +618,6 @@
         {
           "item_id": 11134,
           "name": "Lesser Mystic Essence",
-          "quantity": 1
-        },
-        {
-          "item_id": 11137,
-          "name": "Vision Dust",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 439134,
-      "name": "Greater Mystic Wand",
-      "creates": {
-        "item_id": 217287,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 175,
-        "yellow": 195,
-        "green": 215,
-        "gray": 235
-      },
-      "learned_at": 175,
-      "source": [
-        6
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 11291,
-          "name": "Star Wood",
-          "quantity": 1
-        },
-        {
-          "item_id": 11135,
-          "name": "Greater Mystic Essence",
           "quantity": 1
         },
         {
@@ -1161,48 +1087,6 @@
       ]
     },
     {
-      "id": 471400,
-      "name": "Magnificent Trollshine",
-      "creates": {
-        "item_id": 232611,
-        "min_qty": 0,
-        "max_qty": 0
-      },
-      "skill_ranges": {
-        "orange": 300,
-        "yellow": 310,
-        "green": 320,
-        "gray": 330
-      },
-      "learned_at": 300,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 8151,
-          "name": "Flask of Mojo",
-          "quantity": 3
-        },
-        {
-          "item_id": 8152,
-          "name": "Flask of Big Mojo",
-          "quantity": 3
-        },
-        {
-          "item_id": 14344,
-          "name": "Large Brilliant Shard",
-          "quantity": 2
-        },
-        {
-          "item_id": 18256,
-          "name": "Imbued Vial",
-          "quantity": 1
-        }
-      ]
-    },
-    {
       "id": 25125,
       "name": "Minor Mana Oil",
       "creates": {
@@ -1285,12 +1169,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 265,
         "yellow": 285,
         "green": 305,
         "gray": 325
       },
-      "learned_at": 285,
+      "learned_at": 265,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -1617,12 +1501,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 5,
         "green": 7,
         "gray": 10
       },
-      "learned_at": 1,
+      "learned_at": 5,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -1779,9 +1663,7 @@
         "gray": 160
       },
       "learned_at": 120,
-      "source": [
-        2
-      ],
+      "source": [],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -1793,60 +1675,6 @@
           "item_id": 10940,
           "name": "Strange Dust",
           "quantity": 4
-        }
-      ]
-    },
-    {
-      "id": 463866,
-      "name": "Sigil of Flowing Waters",
-      "creates": {
-        "item_id": 228978,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 290,
-        "yellow": 305,
-        "green": 312,
-        "gray": 320
-      },
-      "learned_at": 290,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 16204,
-          "name": "Illusion Dust",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 439156,
-      "name": "Sigil of Innovation",
-      "creates": {
-        "item_id": 217308,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 225,
-        "yellow": 225,
-        "green": 227,
-        "gray": 230
-      },
-      "learned_at": 225,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 11137,
-          "name": "Vision Dust",
-          "quantity": 5
         }
       ]
     },
@@ -2879,12 +2707,12 @@
     },
     "11287": {
       "name": "Lesser Magic Wand",
-      "sell_price": 1,
+      "sell_price": 110,
       "buy_price": 0
     },
     "11288": {
       "name": "Greater Magic Wand",
-      "sell_price": 1,
+      "sell_price": 200,
       "buy_price": 0
     },
     "11291": {
@@ -2895,12 +2723,12 @@
     },
     "11289": {
       "name": "Lesser Mystic Wand",
-      "sell_price": 1,
+      "sell_price": 450,
       "buy_price": 0
     },
     "217287": {
       "name": "Greater Mystic Wand",
-      "sell_price": 1,
+      "sell_price": 600,
       "buy_price": 0
     },
     "11382": {
@@ -2933,8 +2761,7 @@
     "12810": {
       "name": "Enchanted Leather",
       "sell_price": 500,
-      "buy_price": 2000,
-      "orgrimmar_vendor": false
+      "buy_price": 2000
     },
     "12359": {
       "name": "Thorium Bar",
@@ -3083,7 +2910,7 @@
     },
     "20744": {
       "name": "Minor Wizard Oil",
-      "sell_price": 500,
+      "sell_price": 100,
       "buy_price": 0
     },
     "3372": {
@@ -3094,7 +2921,7 @@
     },
     "20745": {
       "name": "Minor Mana Oil",
-      "sell_price": 1000,
+      "sell_price": 500,
       "buy_price": 0
     },
     "17035": {
@@ -3150,99 +2977,9 @@
       "sell_price": 1000,
       "buy_price": 0
     },
-    "217308": {
-      "name": "Enchanted Sigil: Innovation",
-      "sell_price": 0,
-      "buy_price": 0
-    },
     "220792": {
       "name": "Scroll of Spatial Mending",
       "sell_price": 150,
-      "buy_price": 0
-    },
-    "228980": {
-      "name": "Conductive Shield Coating",
-      "sell_price": 1000,
-      "buy_price": 0
-    },
-    "228978": {
-      "name": "Enchanted Sigil: Flowing Waters",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "8151": {
-      "name": "Flask of Mojo",
-      "sell_price": 250,
-      "buy_price": 0
-    },
-    "8152": {
-      "name": "Flask of Big Mojo",
-      "sell_price": 500,
-      "buy_price": 0
-    },
-    "232611": {
-      "name": "Magnificent Trollshine",
-      "sell_price": 1000,
-      "buy_price": 0
-    },
-    "234006": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234010": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234004": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "2452": {
-      "name": "Swiftthistle",
-      "sell_price": 15,
-      "buy_price": 0
-    },
-    "234003": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234012": {
-      "name": "Hive Thistle",
-      "sell_price": 15,
-      "buy_price": 0
-    },
-    "234007": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234011": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234005": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "2459": {
-      "name": "Swiftness Potion",
-      "sell_price": 25,
-      "buy_price": 0
-    },
-    "14047": {
-      "name": "Runecloth",
-      "sell_price": 400,
-      "buy_price": 0
-    },
-    "13458": {
-      "name": "Greater Nature Protection Potion",
-      "sell_price": 750,
       "buy_price": 0
     },
     "13180": {
@@ -3260,11 +2997,6 @@
       "sell_price": 0,
       "buy_price": 0
     },
-    "234008": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
     "12938": {
       "name": "Blood of Heroes",
       "sell_price": 0,
@@ -3277,7 +3009,7 @@
     },
     "247789": {
       "name": "Novice's Practice Wand",
-      "sell_price": 1,
+      "sell_price": 5,
       "buy_price": 0
     },
     "4605": {
@@ -3288,7 +3020,7 @@
     },
     "249396": {
       "name": "Mystic Mushroom",
-      "sell_price": 1012,
+      "sell_price": 499,
       "buy_price": 0
     },
     "3013": {
@@ -3299,12 +3031,12 @@
     },
     "249397": {
       "name": "Tenets of the Silver Hand",
-      "sell_price": 1012,
+      "sell_price": 450,
       "buy_price": 0
     },
     "249398": {
       "name": "Polished Driftwood Icon",
-      "sell_price": 1012,
+      "sell_price": 499,
       "buy_price": 0
     },
     "249391": {
@@ -3324,7 +3056,7 @@
     },
     "249409": {
       "name": "Cerulean Dye",
-      "sell_price": 125,
+      "sell_price": 75,
       "buy_price": 0
     },
     "249410": {
@@ -3344,17 +3076,17 @@
     },
     "249394": {
       "name": "Orb of Mystic Insight",
-      "sell_price": 2156,
+      "sell_price": 499,
       "buy_price": 0
     },
     "249395": {
       "name": "Orb of Souls",
-      "sell_price": 2156,
+      "sell_price": 496,
       "buy_price": 0
     },
     "249144": {
       "name": "Twisted Nether Wand",
-      "sell_price": 1,
+      "sell_price": 1000,
       "buy_price": 0
     },
     "249430": {
@@ -3364,7 +3096,7 @@
     },
     "249441": {
       "name": "Talons of Wrath",
-      "sell_price": 5833,
+      "sell_price": 2001,
       "buy_price": 0
     },
     "2289": {
@@ -3375,7 +3107,7 @@
     },
     "249442": {
       "name": "Libram of Invocation",
-      "sell_price": 5833,
+      "sell_price": 2655,
       "buy_price": 0
     },
     "249432": {
@@ -3385,7 +3117,7 @@
     },
     "249443": {
       "name": "Totem of Ancestral Protection",
-      "sell_price": 11880,
+      "sell_price": 4752,
       "buy_price": 0
     },
     "249425": {
@@ -3420,12 +3152,12 @@
     },
     "249234": {
       "name": "Dreambough Wand",
-      "sell_price": 1,
+      "sell_price": 1500,
       "buy_price": 0
     },
     "249232": {
       "name": "Lesser Eternal Wand",
-      "sell_price": 1,
+      "sell_price": 2000,
       "buy_price": 0
     },
     "15407": {
@@ -3450,7 +3182,7 @@
     },
     "249237": {
       "name": "Greater Eternal Wand",
-      "sell_price": 1,
+      "sell_price": 2500,
       "buy_price": 0
     },
     "248819": {
@@ -3465,7 +3197,7 @@
     },
     "249726": {
       "name": "Azerothium Bar",
-      "sell_price": 5000,
+      "sell_price": 3000,
       "buy_price": 0
     },
     "249274": {
@@ -3561,6 +3293,11 @@
     "12363": {
       "name": "Arcane Crystal",
       "sell_price": 2000,
+      "buy_price": 0
+    },
+    "12361": {
+      "name": "Blue Sapphire",
+      "sell_price": 7000,
       "buy_price": 0
     },
     "6342": {
@@ -4003,40 +3740,10 @@
       "sell_price": 6250,
       "buy_price": 25000
     },
-    "215129": {
-      "name": "Formula: Enchant Weapon - Dismantle",
-      "sell_price": 1280,
-      "buy_price": 50000
-    },
-    "215138": {
-      "name": "Formula: Enchant Chest - Retricutioner",
-      "sell_price": 1280,
-      "buy_price": 50000
-    },
-    "215141": {
-      "name": "Enchanted Sigil: Innovation",
-      "sell_price": 1280,
-      "buy_price": 50000
-    },
     "223163": {
       "name": "Formula: Scroll of Spatial Mending",
       "sell_price": 1280,
       "buy_price": 0
-    },
-    "228979": {
-      "name": "Enchanted Sigil: Flowing Waters",
-      "sell_price": 25000,
-      "buy_price": 100000
-    },
-    "228981": {
-      "name": "Formula: Conductive Shield Coating",
-      "sell_price": 5000,
-      "buy_price": 20000
-    },
-    "228982": {
-      "name": "Formula: Enchant Shield - Law of Nature",
-      "sell_price": 25000,
-      "buy_price": 100000
     },
     "229008": {
       "name": "Formula: Enchant Cloak - Greater Fire Resistance",
@@ -4048,38 +3755,8 @@
       "sell_price": 25000,
       "buy_price": 100000
     },
-    "232610": {
-      "name": "Formula: Magnificent Trollshine",
-      "sell_price": 10000,
-      "buy_price": 40000
-    },
-    "234271": {
-      "name": "Formula: Scroll: Wrath of the Swarm",
-      "sell_price": 25000,
-      "buy_price": 100000
-    },
-    "234272": {
-      "name": "Formula: Enchanted Repellent",
-      "sell_price": 12500,
-      "buy_price": 50000
-    },
-    "241191": {
-      "name": "Formula: Enchant Weapon - Grand Crusader",
-      "sell_price": 7500,
-      "buy_price": 0
-    },
-    "241195": {
-      "name": "Formula: Enchant 2H Weapon - Grand Arcanist",
-      "sell_price": 7500,
-      "buy_price": 0
-    },
     "241201": {
       "name": "Formula: Enchant Weapon - Grand Sorcerer",
-      "sell_price": 7500,
-      "buy_price": 0
-    },
-    "242361": {
-      "name": "Formula: Enchant 2H Weapon - Grand Inquisitor",
       "sell_price": 7500,
       "buy_price": 0
     },
@@ -4258,6 +3935,21 @@
       "sell_price": 2000,
       "buy_price": 0
     },
+    "249519": {
+      "name": "Formula: Frozen Heart of the Mountain",
+      "sell_price": 2000,
+      "buy_price": 0
+    },
+    "249520": {
+      "name": "Formula: Molten Heart of the Mountain",
+      "sell_price": 2000,
+      "buy_price": 0
+    },
+    "249521": {
+      "name": "Formula: Dormant Heart of the Mountain",
+      "sell_price": 2000,
+      "buy_price": 0
+    },
     "249522": {
       "name": "Formula: Greater Eternal Wand",
       "sell_price": 2000,
@@ -4339,17 +4031,17 @@
       "buy_price": 0
     },
     "274391": {
-      "name": "Formula: Enchant Off-Hand - Superior Intellect",
+      "name": "Formula: Enchant Off Hand - Superior Intellect",
       "sell_price": 1250,
       "buy_price": 0
     },
     "274392": {
-      "name": "Formula: Enchant Off-Hand - Excellent Spirit",
+      "name": "Formula: Enchant Off Hand - Excellent Spirit",
       "sell_price": 1250,
       "buy_price": 0
     },
     "274393": {
-      "name": "Formula: Enchant Off-Hand - Wisdom",
+      "name": "Formula: Enchant Off Hand - Wisdom",
       "sell_price": 1500,
       "buy_price": 7500
     },
@@ -4386,7 +4078,7 @@
     "274424": {
       "name": "Formula: Enchant Gloves - Lotus Claw",
       "sell_price": 1250,
-      "buy_price": 0
+      "buy_price": 5000
     },
     "279295": {
       "name": "Formula: Torch of Light",
@@ -4416,6 +4108,11 @@
     "279300": {
       "name": "Formula: Idol of the Ursine Twins",
       "sell_price": 125000,
+      "buy_price": 0
+    },
+    "289560": {
+      "name": "Formula: Enchant Boots - Speed",
+      "sell_price": 1550,
       "buy_price": 0
     },
     "6222": {

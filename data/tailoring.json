@@ -2,7 +2,7 @@
   "profession": "tailoring",
   "skill_id": 197,
   "url": "https://www.wowhead.com/forever/skill=197/tailoring",
-  "scraped_at": "2026-10-04T19:12:51.223944+00:00",
+  "scraped_at": "2026-11-04T19:07:29.451886+00:00",
   "recipes": [
     {
       "id": 12081,
@@ -50,7 +50,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
+        "orange": 0,
         "yellow": 0,
         "green": 290,
         "gray": 300
@@ -134,12 +134,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
-        "yellow": 190,
+        "orange": 155,
+        "yellow": 175,
         "green": 190,
         "gray": 205
       },
-      "learned_at": 190,
+      "learned_at": 155,
       "source": [
         2,
         16
@@ -177,12 +177,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 175,
+        "orange": 140,
+        "yellow": 160,
         "green": 175,
         "gray": 190
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         6
       ],
@@ -224,12 +224,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 175,
+        "orange": 140,
+        "yellow": 160,
         "green": 175,
         "gray": 190
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         5
       ],
@@ -261,12 +261,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 145,
-        "yellow": 145,
+        "orange": 120,
+        "yellow": 140,
         "green": 155,
         "gray": 170
       },
-      "learned_at": 145,
+      "learned_at": 120,
       "source": [
         5
       ],
@@ -303,12 +303,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 145,
-        "yellow": 0,
-        "green": 0,
-        "gray": 145
+        "orange": 120,
+        "yellow": 130,
+        "green": 135,
+        "gray": 140
       },
-      "learned_at": 145,
+      "learned_at": 120,
       "source": [
         6
       ],
@@ -340,12 +340,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 140,
+        "orange": 115,
+        "yellow": 135,
         "green": 150,
         "gray": 165
       },
-      "learned_at": 140,
+      "learned_at": 115,
       "source": [
         6
       ],
@@ -377,12 +377,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 150,
-        "yellow": 150,
+        "orange": 125,
+        "yellow": 145,
         "green": 160,
         "gray": 175
       },
-      "learned_at": 150,
+      "learned_at": 125,
       "source": [
         6
       ],
@@ -685,12 +685,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 70,
+        "orange": 40,
+        "yellow": 65,
         "green": 82,
         "gray": 100
       },
-      "learned_at": 70,
+      "learned_at": 40,
       "source": [
         6
       ],
@@ -722,12 +722,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 295,
         "yellow": 310,
         "green": 325,
         "gray": 340
       },
-      "learned_at": 300,
+      "learned_at": 295,
       "source": [
         2
       ],
@@ -784,12 +784,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 255,
+        "yellow": 270,
+        "green": 285,
         "gray": 300
       },
-      "learned_at": 300,
+      "learned_at": 255,
       "source": [
         2
       ],
@@ -963,12 +963,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 230,
-        "yellow": 0,
-        "green": 230,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 230,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -1000,12 +1000,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 215,
-        "yellow": 0,
-        "green": 215,
+        "orange": 180,
+        "yellow": 195,
+        "green": 210,
         "gray": 225
       },
-      "learned_at": 215,
+      "learned_at": 180,
       "source": [
         6
       ],
@@ -1032,12 +1032,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 230,
-        "yellow": 0,
-        "green": 230,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 230,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -1064,12 +1064,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 205,
-        "yellow": 0,
-        "green": 205,
+        "orange": 170,
+        "yellow": 185,
+        "green": 200,
         "gray": 215
       },
-      "learned_at": 205,
+      "learned_at": 170,
       "source": [
         6
       ],
@@ -1096,12 +1096,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 210,
-        "yellow": 0,
-        "green": 210,
+        "orange": 175,
+        "yellow": 190,
+        "green": 205,
         "gray": 220
       },
-      "learned_at": 210,
+      "learned_at": 175,
       "source": [
         6
       ],
@@ -1128,12 +1128,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 230,
-        "yellow": 0,
-        "green": 230,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 230,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -1160,12 +1160,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 205,
-        "yellow": 0,
-        "green": 205,
+        "orange": 170,
+        "yellow": 185,
+        "green": 200,
         "gray": 215
       },
-      "learned_at": 205,
+      "learned_at": 170,
       "source": [
         6
       ],
@@ -1244,12 +1244,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 185,
-        "yellow": 185,
+        "orange": 150,
+        "yellow": 170,
         "green": 185,
         "gray": 200
       },
-      "learned_at": 185,
+      "learned_at": 150,
       "source": [
         2
       ],
@@ -1281,12 +1281,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 145,
-        "green": 145,
-        "gray": 145
+        "orange": 0,
+        "yellow": 0,
+        "green": 0,
+        "gray": 150
       },
-      "learned_at": 140,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -1328,12 +1328,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 200,
-        "yellow": 0,
-        "green": 0,
-        "gray": 200
+        "orange": 165,
+        "yellow": 175,
+        "green": 180,
+        "gray": 185
       },
-      "learned_at": 200,
+      "learned_at": 165,
       "source": [
         5
       ],
@@ -1553,12 +1553,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 70,
+        "orange": 45,
         "yellow": 70,
         "green": 87,
         "gray": 105
       },
-      "learned_at": 70,
+      "learned_at": 45,
       "source": [
         5
       ],
@@ -1590,12 +1590,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 40,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 40,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -1627,12 +1627,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 55,
+        "orange": 35,
         "yellow": 60,
         "green": 77,
         "gray": 95
       },
-      "learned_at": 55,
+      "learned_at": 35,
       "source": [
         5
       ],
@@ -1664,12 +1664,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 100,
+        "orange": 75,
         "yellow": 100,
         "green": 117,
         "gray": 135
       },
-      "learned_at": 100,
+      "learned_at": 75,
       "source": [
         5
       ],
@@ -1701,12 +1701,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 25,
         "green": 37,
         "gray": 50
       },
-      "learned_at": 1,
+      "learned_at": 25,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -1726,12 +1726,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 0,
-        "green": 0,
-        "gray": 175
+        "orange": 140,
+        "yellow": 145,
+        "green": 147,
+        "gray": 150
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         6
       ],
@@ -1753,12 +1753,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 250,
-        "yellow": 0,
-        "green": 0,
-        "gray": 250
+        "orange": 205,
+        "yellow": 210,
+        "green": 212,
+        "gray": 215
       },
-      "learned_at": 250,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -1780,12 +1780,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 125,
-        "yellow": 0,
-        "green": 0,
-        "gray": 125
+        "orange": 100,
+        "yellow": 110,
+        "green": 115,
+        "gray": 120
       },
-      "learned_at": 125,
+      "learned_at": 100,
       "source": [
         6
       ],
@@ -1807,12 +1807,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 75,
-        "yellow": 75,
+        "orange": 55,
+        "yellow": 70,
         "green": 77,
         "gray": 85
       },
-      "learned_at": 75,
+      "learned_at": 55,
       "source": [
         6
       ],
@@ -1876,12 +1876,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 175,
+        "orange": 140,
+        "yellow": 160,
         "green": 175,
         "gray": 190
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         2,
         16
@@ -2026,12 +2026,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 135,
-        "yellow": 0,
-        "green": 0,
-        "gray": 135
+        "orange": 110,
+        "yellow": 120,
+        "green": 125,
+        "gray": 130
       },
-      "learned_at": 135,
+      "learned_at": 110,
       "source": [
         5
       ],
@@ -2063,12 +2063,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         2
       ],
@@ -2100,12 +2100,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 270,
-        "yellow": 0,
-        "green": 270,
+        "orange": 225,
+        "yellow": 240,
+        "green": 255,
         "gray": 270
       },
-      "learned_at": 270,
+      "learned_at": 225,
       "source": [
         2
       ],
@@ -2137,12 +2137,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
-        "yellow": 0,
-        "green": 290,
+        "orange": 245,
+        "yellow": 260,
+        "green": 275,
         "gray": 290
       },
-      "learned_at": 290,
+      "learned_at": 245,
       "source": [
         2
       ],
@@ -2179,12 +2179,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 270,
-        "yellow": 0,
-        "green": 270,
+        "orange": 225,
+        "yellow": 240,
+        "green": 255,
         "gray": 270
       },
-      "learned_at": 270,
+      "learned_at": 225,
       "source": [
         2,
         16
@@ -2217,12 +2217,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 30,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 30,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -2249,12 +2249,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 30,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 30,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -2281,12 +2281,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 35,
         "green": 47,
         "gray": 60
       },
-      "learned_at": 1,
+      "learned_at": 35,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -2343,12 +2343,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         5
       ],
@@ -2385,12 +2385,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 245,
-        "yellow": 0,
-        "green": 245,
+        "orange": 200,
+        "yellow": 215,
+        "green": 230,
         "gray": 245
       },
-      "learned_at": 245,
+      "learned_at": 200,
       "source": [
         6
       ],
@@ -2427,12 +2427,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         2
       ],
@@ -2464,12 +2464,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 270,
-        "yellow": 0,
-        "green": 270,
+        "orange": 225,
+        "yellow": 240,
+        "green": 255,
         "gray": 270
       },
-      "learned_at": 270,
+      "learned_at": 225,
       "source": [
         2
       ],
@@ -2501,12 +2501,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 280,
-        "yellow": 0,
-        "green": 280,
+        "orange": 235,
+        "yellow": 250,
+        "green": 265,
         "gray": 280
       },
-      "learned_at": 280,
+      "learned_at": 235,
       "source": [
         2
       ],
@@ -2538,12 +2538,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -2575,12 +2575,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 260,
-        "yellow": 0,
-        "green": 260,
+        "orange": 215,
+        "yellow": 230,
+        "green": 245,
         "gray": 260
       },
-      "learned_at": 260,
+      "learned_at": 215,
       "source": [
         2
       ],
@@ -2694,12 +2694,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 280,
+        "yellow": 295,
         "green": 310,
         "gray": 325
       },
-      "learned_at": 300,
+      "learned_at": 280,
       "source": [
         2
       ],
@@ -3012,12 +3012,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 120,
-        "yellow": 0,
-        "green": 120,
+        "orange": 70,
+        "yellow": 95,
+        "green": 112,
         "gray": 130
       },
-      "learned_at": 120,
+      "learned_at": 70,
       "source": [
         2
       ],
@@ -3141,12 +3141,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 175,
+        "orange": 140,
+        "yellow": 160,
         "green": 175,
         "gray": 190
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         6
       ],
@@ -3183,12 +3183,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 180,
-        "yellow": 180,
+        "orange": 145,
+        "yellow": 165,
         "green": 180,
         "gray": 195
       },
-      "learned_at": 180,
+      "learned_at": 145,
       "source": [
         5
       ],
@@ -3225,12 +3225,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 210,
-        "yellow": 0,
-        "green": 210,
+        "orange": 175,
+        "yellow": 190,
+        "green": 205,
         "gray": 220
       },
-      "learned_at": 210,
+      "learned_at": 175,
       "source": [
         6
       ],
@@ -3277,12 +3277,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 195,
-        "yellow": 0,
-        "green": 195,
+        "orange": 160,
+        "yellow": 180,
+        "green": 190,
         "gray": 200
       },
-      "learned_at": 195,
+      "learned_at": 160,
       "source": [
         6
       ],
@@ -3314,12 +3314,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 205,
-        "yellow": 0,
-        "green": 205,
+        "orange": 170,
+        "yellow": 185,
+        "green": 200,
         "gray": 215
       },
-      "learned_at": 205,
+      "learned_at": 170,
       "source": [
         5
       ],
@@ -3361,12 +3361,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
-        "yellow": 190,
+        "orange": 155,
+        "yellow": 175,
         "green": 190,
         "gray": 205
       },
-      "learned_at": 190,
+      "learned_at": 155,
       "source": [
         2
       ],
@@ -3403,12 +3403,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 185,
-        "yellow": 0,
-        "green": 185,
+        "orange": 150,
+        "yellow": 170,
+        "green": 180,
         "gray": 190
       },
-      "learned_at": 185,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -3480,12 +3480,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 155,
-        "yellow": 0,
-        "green": 0,
-        "gray": 155
+        "orange": 120,
+        "yellow": 130,
+        "green": 135,
+        "gray": 140
       },
-      "learned_at": 155,
+      "learned_at": 120,
       "source": [
         5
       ],
@@ -3685,12 +3685,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 110,
+        "orange": 85,
         "yellow": 110,
         "green": 127,
         "gray": 145
       },
-      "learned_at": 110,
+      "learned_at": 85,
       "source": [
         6
       ],
@@ -3717,12 +3717,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 250,
-        "yellow": 0,
-        "green": 250,
+        "orange": 205,
+        "yellow": 220,
+        "green": 235,
         "gray": 250
       },
-      "learned_at": 250,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -3769,12 +3769,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -3811,12 +3811,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -3888,12 +3888,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 195,
-        "yellow": 195,
+        "orange": 160,
+        "yellow": 180,
         "green": 195,
         "gray": 210
       },
-      "learned_at": 195,
+      "learned_at": 160,
       "source": [
         2
       ],
@@ -3941,7 +3941,9 @@
         "gray": 215
       },
       "learned_at": 165,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -4046,7 +4048,9 @@
         "gray": 215
       },
       "learned_at": 170,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -4115,12 +4119,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 170,
-        "yellow": 170,
+        "orange": 135,
+        "yellow": 155,
         "green": 170,
         "gray": 185
       },
-      "learned_at": 170,
+      "learned_at": 135,
       "source": [
         6
       ],
@@ -4437,12 +4441,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
+      "learned_at": 190,
       "source": [
         5
       ],
@@ -4474,12 +4478,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         5
       ],
@@ -4511,12 +4515,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 165,
-        "yellow": 165,
+        "orange": 130,
+        "yellow": 150,
         "green": 165,
         "gray": 180
       },
-      "learned_at": 165,
+      "learned_at": 130,
       "source": [
         5
       ],
@@ -4548,7 +4552,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 20,
         "yellow": 20,
         "green": 22,
         "gray": 25
@@ -4581,7 +4585,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 20,
         "yellow": 20,
         "green": 22,
         "gray": 25
@@ -4719,12 +4723,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 285,
-        "yellow": 0,
-        "green": 285,
+        "orange": 240,
+        "yellow": 255,
+        "green": 270,
         "gray": 285
       },
-      "learned_at": 285,
+      "learned_at": 240,
       "source": [
         2,
         16
@@ -4762,12 +4766,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 280,
+        "yellow": 295,
         "green": 310,
         "gray": 325
       },
-      "learned_at": 300,
+      "learned_at": 280,
       "source": [
         2
       ],
@@ -4809,12 +4813,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
-        "yellow": 0,
-        "green": 290,
+        "orange": 245,
+        "yellow": 260,
+        "green": 275,
         "gray": 290
       },
-      "learned_at": 290,
+      "learned_at": 245,
       "source": [
         2
       ],
@@ -4846,12 +4850,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         5
       ],
@@ -4883,12 +4887,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 260,
+        "yellow": 275,
+        "green": 290,
         "gray": 305
       },
-      "learned_at": 300,
+      "learned_at": 260,
       "source": [
         2
       ],
@@ -4925,12 +4929,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 265,
+        "yellow": 280,
+        "green": 295,
         "gray": 310
       },
-      "learned_at": 300,
+      "learned_at": 265,
       "source": [
         2,
         16
@@ -5246,12 +5250,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 145,
-        "green": 145,
-        "gray": 145
+        "orange": 0,
+        "yellow": 0,
+        "green": 0,
+        "gray": 150
       },
-      "learned_at": 140,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -5598,7 +5602,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -6611,12 +6617,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 170,
-        "yellow": 0,
-        "green": 0,
-        "gray": 170
+        "orange": 135,
+        "yellow": 145,
+        "green": 150,
+        "gray": 155
       },
-      "learned_at": 170,
+      "learned_at": 135,
       "source": [
         6
       ],
@@ -6648,12 +6654,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 265,
-        "yellow": 0,
-        "green": 0,
-        "gray": 265
+        "orange": 215,
+        "yellow": 230,
+        "green": 245,
+        "gray": 260
       },
-      "learned_at": 265,
+      "learned_at": 215,
       "source": [
         2,
         16
@@ -6686,12 +6692,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 280,
-        "yellow": 0,
-        "green": 280,
+        "orange": 235,
+        "yellow": 250,
+        "green": 265,
         "gray": 280
       },
-      "learned_at": 280,
+      "learned_at": 235,
       "source": [
         2
       ],
@@ -6723,12 +6729,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 255,
-        "yellow": 0,
-        "green": 255,
+        "orange": 210,
+        "yellow": 225,
+        "green": 240,
         "gray": 255
       },
-      "learned_at": 255,
+      "learned_at": 210,
       "source": [
         2
       ],
@@ -6760,12 +6766,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 255,
-        "yellow": 0,
-        "green": 255,
+        "orange": 210,
+        "yellow": 225,
+        "green": 240,
         "gray": 255
       },
-      "learned_at": 255,
+      "learned_at": 210,
       "source": [
         2,
         16
@@ -6987,12 +6993,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 145,
-        "green": 145,
-        "gray": 145
+        "orange": 0,
+        "yellow": 0,
+        "green": 0,
+        "gray": 150
       },
-      "learned_at": 140,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -7123,12 +7129,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 265,
-        "yellow": 0,
-        "green": 265,
+        "orange": 220,
+        "yellow": 235,
+        "green": 250,
         "gray": 265
       },
-      "learned_at": 265,
+      "learned_at": 220,
       "source": [
         2
       ],
@@ -7250,12 +7256,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 270,
-        "yellow": 0,
-        "green": 270,
+        "orange": 225,
+        "yellow": 240,
+        "green": 255,
         "gray": 270
       },
-      "learned_at": 270,
+      "learned_at": 225,
       "source": [
         2
       ],
@@ -7372,12 +7378,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
-        "yellow": 0,
-        "green": 290,
+        "orange": 245,
+        "yellow": 260,
+        "green": 275,
         "gray": 290
       },
-      "learned_at": 290,
+      "learned_at": 245,
       "source": [
         2
       ],
@@ -7409,12 +7415,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 0,
-        "gray": 275
+        "orange": 225,
+        "yellow": 240,
+        "green": 255,
+        "gray": 270
       },
-      "learned_at": 275,
+      "learned_at": 225,
       "source": [
         2
       ],
@@ -7638,12 +7644,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 145,
-        "green": 145,
-        "gray": 145
+        "orange": 0,
+        "yellow": 0,
+        "green": 0,
+        "gray": 150
       },
-      "learned_at": 140,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -7934,12 +7940,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 130,
-        "yellow": 130,
+        "orange": 105,
+        "yellow": 125,
         "green": 140,
         "gray": 155
       },
-      "learned_at": 130,
+      "learned_at": 105,
       "source": [
         6
       ],
@@ -7971,12 +7977,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 295,
         "yellow": 310,
         "green": 325,
         "gray": 340
       },
-      "learned_at": 300,
+      "learned_at": 295,
       "source": [
         2
       ],
@@ -8222,12 +8228,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 145,
-        "green": 145,
-        "gray": 145
+        "orange": 0,
+        "yellow": 0,
+        "green": 0,
+        "gray": 150
       },
-      "learned_at": 140,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -8356,12 +8362,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 105,
+        "orange": 80,
         "yellow": 105,
         "green": 122,
         "gray": 140
       },
-      "learned_at": 105,
+      "learned_at": 80,
       "source": [
         2,
         16
@@ -8394,12 +8400,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 100,
-        "yellow": 100,
+        "orange": 80,
+        "yellow": 90,
         "green": 100,
         "gray": 110
       },
-      "learned_at": 100,
+      "learned_at": 80,
       "source": [
         6
       ],
@@ -8431,12 +8437,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 115,
+        "orange": 90,
         "yellow": 115,
         "green": 132,
         "gray": 150
       },
-      "learned_at": 115,
+      "learned_at": 90,
       "source": [
         5
       ],
@@ -8468,12 +8474,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
-        "yellow": 0,
-        "green": 0,
-        "gray": 190
+        "orange": 155,
+        "yellow": 165,
+        "green": 170,
+        "gray": 175
       },
-      "learned_at": 190,
+      "learned_at": 155,
       "source": [
         2
       ],
@@ -8505,12 +8511,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 60,
+        "orange": 35,
         "yellow": 60,
         "green": 77,
         "gray": 95
       },
-      "learned_at": 60,
+      "learned_at": 35,
       "source": [
         6
       ],
@@ -8542,12 +8548,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
-        "yellow": 70,
+        "orange": 40,
+        "yellow": 65,
         "green": 82,
         "gray": 100
       },
-      "learned_at": 70,
+      "learned_at": 40,
       "source": [
         6
       ],
@@ -8579,12 +8585,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 165,
-        "yellow": 165,
+        "orange": 130,
+        "yellow": 150,
         "green": 165,
         "gray": 180
       },
-      "learned_at": 165,
+      "learned_at": 130,
       "source": [
         2
       ],
@@ -8616,12 +8622,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 175,
+        "orange": 140,
+        "yellow": 160,
         "green": 175,
         "gray": 190
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         2
       ],
@@ -8658,12 +8664,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 180,
-        "yellow": 180,
+        "orange": 145,
+        "yellow": 165,
         "green": 180,
         "gray": 195
       },
-      "learned_at": 180,
+      "learned_at": 145,
       "source": [
         6
       ],
@@ -8730,12 +8736,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 95,
+        "orange": 75,
         "yellow": 100,
         "green": 117,
         "gray": 135
       },
-      "learned_at": 95,
+      "learned_at": 75,
       "source": [
         2,
         21
@@ -8768,12 +8774,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 85,
+        "orange": 60,
         "yellow": 85,
         "green": 102,
         "gray": 120
       },
-      "learned_at": 85,
+      "learned_at": 60,
       "source": [
         6
       ],
@@ -8847,12 +8853,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 145,
-        "yellow": 145,
+        "orange": 120,
+        "yellow": 140,
         "green": 155,
         "gray": 170
       },
-      "learned_at": 145,
+      "learned_at": 120,
       "source": [
         2,
         16
@@ -8890,12 +8896,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 70,
+        "orange": 45,
         "yellow": 70,
         "green": 87,
         "gray": 105
       },
-      "learned_at": 70,
+      "learned_at": 45,
       "source": [
         6
       ],
@@ -8922,12 +8928,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 35,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 35,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -8954,12 +8960,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 100,
+        "orange": 80,
         "yellow": 105,
         "green": 122,
         "gray": 140
       },
-      "learned_at": 100,
+      "learned_at": 80,
       "source": [
         2,
         16,
@@ -8993,12 +8999,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 85,
+        "orange": 60,
         "yellow": 85,
         "green": 102,
         "gray": 120
       },
-      "learned_at": 85,
+      "learned_at": 60,
       "source": [
         6
       ],
@@ -9025,12 +9031,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 110,
+        "orange": 85,
         "yellow": 110,
         "green": 127,
         "gray": 145
       },
-      "learned_at": 110,
+      "learned_at": 85,
       "source": [
         6
       ],
@@ -9094,12 +9100,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 200,
-        "yellow": 200,
+        "orange": 165,
+        "yellow": 185,
         "green": 200,
         "gray": 215
       },
-      "learned_at": 200,
+      "learned_at": 165,
       "source": [
         5
       ],
@@ -9136,12 +9142,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 280,
+        "yellow": 295,
         "green": 310,
         "gray": 325
       },
-      "learned_at": 300,
+      "learned_at": 280,
       "source": [
         2
       ],
@@ -9170,92 +9176,6 @@
       ]
     },
     {
-      "id": 435841,
-      "name": "Invoker's Cord",
-      "creates": {
-        "item_id": 215366,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 150,
-        "yellow": 170,
-        "green": 185,
-        "gray": 200
-      },
-      "learned_at": 150,
-      "source": [
-        2,
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 4305,
-          "name": "Bolt of Silk Cloth",
-          "quantity": 3
-        },
-        {
-          "item_id": 1210,
-          "name": "Shadowgem",
-          "quantity": 1
-        },
-        {
-          "item_id": 2321,
-          "name": "Fine Thread",
-          "quantity": 1
-        },
-        {
-          "item_id": 4340,
-          "name": "Gray Dye",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 435848,
-      "name": "Invoker's Mantle",
-      "creates": {
-        "item_id": 215365,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 150,
-        "yellow": 170,
-        "green": 185,
-        "gray": 200
-      },
-      "learned_at": 150,
-      "source": [
-        2,
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 4305,
-          "name": "Bolt of Silk Cloth",
-          "quantity": 4
-        },
-        {
-          "item_id": 4340,
-          "name": "Gray Dye",
-          "quantity": 4
-        },
-        {
-          "item_id": 2321,
-          "name": "Fine Thread",
-          "quantity": 1
-        },
-        {
-          "item_id": 6260,
-          "name": "Blue Dye",
-          "quantity": 4
-        }
-      ]
-    },
-    {
       "id": 12075,
       "name": "Lavender Mageweave Shirt",
       "creates": {
@@ -9264,12 +9184,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 230,
-        "yellow": 0,
-        "green": 0,
-        "gray": 230
+        "orange": 190,
+        "yellow": 195,
+        "green": 200,
+        "gray": 205
       },
-      "learned_at": 230,
+      "learned_at": 190,
       "source": [
         5
       ],
@@ -9289,48 +9209,6 @@
           "item_id": 8343,
           "name": "Heavy Silken Thread",
           "quantity": 2
-        }
-      ]
-    },
-    {
-      "id": 461727,
-      "name": "Leather-Reinforced Runecloth Bag",
-      "creates": {
-        "item_id": 227844,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 300,
-        "yellow": 315,
-        "green": 330,
-        "gray": 345
-      },
-      "learned_at": 300,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 14048,
-          "name": "Bolt of Runecloth",
-          "quantity": 5
-        },
-        {
-          "item_id": 8170,
-          "name": "Rugged Leather",
-          "quantity": 2
-        },
-        {
-          "item_id": 14341,
-          "name": "Rune Thread",
-          "quantity": 1
-        },
-        {
-          "item_id": 15407,
-          "name": "Cured Rugged Hide",
-          "quantity": 1
         }
       ]
     },
@@ -9385,12 +9263,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 135,
-        "yellow": 135,
+        "orange": 110,
+        "yellow": 130,
         "green": 145,
         "gray": 160
       },
-      "learned_at": 135,
+      "learned_at": 110,
       "source": [
         6
       ],
@@ -9422,12 +9300,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 45,
-        "yellow": 45,
+        "orange": 5,
+        "yellow": 30,
         "green": 47,
         "gray": 65
       },
-      "learned_at": 45,
+      "learned_at": 5,
       "source": [
         6
       ],
@@ -9486,12 +9364,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 65,
+        "orange": 40,
         "yellow": 65,
         "green": 82,
         "gray": 100
       },
-      "learned_at": 65,
+      "learned_at": 40,
       "source": [
         6
       ],
@@ -9523,12 +9401,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 35,
         "green": 47,
         "gray": 60
       },
-      "learned_at": 1,
+      "learned_at": 35,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -9585,12 +9463,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 185,
-        "yellow": 185,
+        "orange": 150,
+        "yellow": 170,
         "green": 185,
         "gray": 200
       },
-      "learned_at": 185,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -9657,12 +9535,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -9976,12 +9854,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 290,
         "yellow": 305,
         "green": 319,
         "gray": 334
       },
-      "learned_at": 300,
+      "learned_at": 290,
       "source": [
         5
       ],
@@ -10018,12 +9896,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 250,
+        "orange": 230,
         "yellow": 270,
         "green": 285,
         "gray": 300
       },
-      "learned_at": 250,
+      "learned_at": 230,
       "source": [
         5
       ],
@@ -10045,12 +9923,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 255,
+        "yellow": 270,
+        "green": 285,
         "gray": 300
       },
-      "learned_at": 300,
+      "learned_at": 255,
       "source": [
         2
       ],
@@ -10097,12 +9975,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
-        "yellow": 290,
+        "orange": 0,
+        "yellow": 285,
         "green": 300,
         "gray": 315
       },
-      "learned_at": 290,
+      "learned_at": 285,
       "source": [
         4
       ],
@@ -10139,12 +10017,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 280,
+        "yellow": 295,
         "green": 310,
         "gray": 325
       },
-      "learned_at": 300,
+      "learned_at": 280,
       "source": [
         2
       ],
@@ -10186,12 +10064,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 280,
+        "yellow": 295,
         "green": 310,
         "gray": 325
       },
-      "learned_at": 300,
+      "learned_at": 280,
       "source": [
         2
       ],
@@ -10228,12 +10106,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
-        "yellow": 0,
-        "green": 290,
+        "orange": 245,
+        "yellow": 270,
+        "green": 285,
         "gray": 300
       },
-      "learned_at": 290,
+      "learned_at": 245,
       "source": [
         2
       ],
@@ -10271,7 +10149,9 @@
         "gray": 300
       },
       "learned_at": 255,
-      "source": [],
+      "source": [
+        5
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -10315,12 +10195,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 275,
+        "yellow": 290,
         "green": 305,
         "gray": 320
       },
-      "learned_at": 300,
+      "learned_at": 275,
       "source": [
         5
       ],
@@ -10357,12 +10237,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 275,
+        "yellow": 290,
         "green": 305,
         "gray": 320
       },
-      "learned_at": 300,
+      "learned_at": 275,
       "source": [
         2
       ],
@@ -10394,12 +10274,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 300,
+        "orange": 270,
+        "yellow": 285,
         "green": 300,
         "gray": 315
       },
-      "learned_at": 300,
+      "learned_at": 270,
       "source": [
         2
       ],
@@ -11055,12 +10935,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 50,
+        "orange": 35,
         "yellow": 55,
         "green": 55,
         "gray": 55
       },
-      "learned_at": 50,
+      "learned_at": 35,
       "source": [
         6
       ],
@@ -11092,12 +10972,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 50,
+        "orange": 35,
         "yellow": 55,
         "green": 55,
         "gray": 55
       },
-      "learned_at": 50,
+      "learned_at": 35,
       "source": [
         6
       ],
@@ -11129,12 +11009,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 215,
-        "yellow": 0,
-        "green": 0,
-        "gray": 215
+        "orange": 180,
+        "yellow": 185,
+        "green": 190,
+        "gray": 195
       },
-      "learned_at": 215,
+      "learned_at": 180,
       "source": [
         6
       ],
@@ -11166,12 +11046,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 220,
-        "yellow": 0,
-        "green": 0,
-        "gray": 220
+        "orange": 185,
+        "yellow": 190,
+        "green": 195,
+        "gray": 200
       },
-      "learned_at": 220,
+      "learned_at": 185,
       "source": [
         5
       ],
@@ -11287,12 +11167,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 90,
+        "orange": 70,
         "yellow": 95,
         "green": 112,
         "gray": 130
       },
-      "learned_at": 90,
+      "learned_at": 70,
       "source": [
         6
       ],
@@ -11598,43 +11478,6 @@
       ]
     },
     {
-      "id": 428424,
-      "name": "Phoenix Bindings",
-      "creates": {
-        "item_id": 210781,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 125,
-        "yellow": 125,
-        "green": 137,
-        "gray": 150
-      },
-      "learned_at": 125,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 2997,
-          "name": "Bolt of Woolen Cloth",
-          "quantity": 6
-        },
-        {
-          "item_id": 814,
-          "name": "Flask of Oil",
-          "quantity": 2
-        },
-        {
-          "item_id": 2321,
-          "name": "Fine Thread",
-          "quantity": 2
-        }
-      ]
-    },
-    {
       "id": 3868,
       "name": "Phoenix Gloves",
       "creates": {
@@ -11643,12 +11486,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 125,
+        "orange": 100,
         "yellow": 125,
         "green": 142,
         "gray": 160
       },
-      "learned_at": 125,
+      "learned_at": 100,
       "source": [
         2
       ],
@@ -11685,12 +11528,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 125,
+        "orange": 100,
         "yellow": 125,
         "green": 142,
         "gray": 160
       },
-      "learned_at": 125,
+      "learned_at": 100,
       "source": [
         2,
         16
@@ -11723,12 +11566,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 235,
-        "yellow": 0,
-        "green": 0,
-        "gray": 235
+        "orange": 195,
+        "yellow": 200,
+        "green": 205,
+        "gray": 210
       },
-      "learned_at": 235,
+      "learned_at": 195,
       "source": [
         5
       ],
@@ -12231,12 +12074,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 145,
-        "green": 145,
-        "gray": 145
+        "orange": 0,
+        "yellow": 0,
+        "green": 0,
+        "gray": 150
       },
-      "learned_at": 140,
+      "learned_at": 150,
       "source": [
         6
       ],
@@ -12325,12 +12168,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 70,
+        "orange": 50,
         "yellow": 75,
         "green": 92,
         "gray": 110
       },
-      "learned_at": 70,
+      "learned_at": 50,
       "source": [
         2,
         5
@@ -12363,12 +12206,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 40,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 40,
+      "learned_at": 25,
       "source": [
         2,
         16,
@@ -12402,12 +12245,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 40,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 40,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -12439,15 +12282,14 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 55,
+        "orange": 35,
         "yellow": 60,
         "green": 77,
         "gray": 95
       },
-      "learned_at": 55,
+      "learned_at": 35,
       "source": [
         2,
-        16,
         21
       ],
       "cooldown_seconds": null,
@@ -12478,12 +12320,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 235,
-        "yellow": 0,
-        "green": 235,
+        "orange": 195,
+        "yellow": 210,
+        "green": 225,
         "gray": 240
       },
-      "learned_at": 235,
+      "learned_at": 195,
       "source": [
         6
       ],
@@ -12515,15 +12357,14 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
+      "learned_at": 190,
       "source": [
-        2,
-        16
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -12553,15 +12394,14 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 240,
-        "yellow": 0,
-        "green": 240,
+        "orange": 200,
+        "yellow": 215,
+        "green": 230,
         "gray": 245
       },
-      "learned_at": 240,
+      "learned_at": 200,
       "source": [
-        2,
-        16
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -12591,12 +12431,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 215,
-        "yellow": 0,
-        "green": 215,
+        "orange": 180,
+        "yellow": 195,
+        "green": 210,
         "gray": 225
       },
-      "learned_at": 215,
+      "learned_at": 180,
       "source": [
         2
       ],
@@ -12628,12 +12468,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 235,
-        "yellow": 0,
-        "green": 235,
+        "orange": 195,
+        "yellow": 210,
+        "green": 225,
         "gray": 240
       },
-      "learned_at": 235,
+      "learned_at": 195,
       "source": [
         2
       ],
@@ -12665,15 +12505,14 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 215,
-        "yellow": 0,
-        "green": 215,
+        "orange": 180,
+        "yellow": 195,
+        "green": 210,
         "gray": 225
       },
-      "learned_at": 215,
+      "learned_at": 180,
       "source": [
-        2,
-        16
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -12703,12 +12542,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
-        "yellow": 0,
-        "green": 0,
-        "gray": 175
+        "orange": 140,
+        "yellow": 150,
+        "green": 155,
+        "gray": 160
       },
-      "learned_at": 175,
+      "learned_at": 140,
       "source": [
         6
       ],
@@ -12780,12 +12619,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 115,
+        "orange": 90,
         "yellow": 115,
         "green": 132,
         "gray": 150
       },
-      "learned_at": 115,
+      "learned_at": 90,
       "source": [
         2,
         5
@@ -12818,12 +12657,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 95,
-        "yellow": 95,
+        "orange": 75,
+        "yellow": 80,
         "green": 97,
         "gray": 115
       },
-      "learned_at": 95,
+      "learned_at": 75,
       "source": [
         2,
         16,
@@ -12862,12 +12701,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 60,
+        "orange": 35,
         "yellow": 60,
         "green": 77,
         "gray": 95
       },
-      "learned_at": 60,
+      "learned_at": 35,
       "source": [
         6
       ],
@@ -12894,12 +12733,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 120,
+        "orange": 95,
         "yellow": 120,
         "green": 137,
         "gray": 155
       },
-      "learned_at": 120,
+      "learned_at": 95,
       "source": [
         2
       ],
@@ -12931,15 +12770,14 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 185,
-        "yellow": 0,
-        "green": 0,
-        "gray": 185
+        "orange": 150,
+        "yellow": 160,
+        "green": 165,
+        "gray": 170
       },
-      "learned_at": 185,
+      "learned_at": 150,
       "source": [
-        2,
-        21
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -13004,12 +12842,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
-        "yellow": 190,
+        "orange": 155,
+        "yellow": 175,
         "green": 190,
         "gray": 205
       },
-      "learned_at": 190,
+      "learned_at": 155,
       "source": [
         6
       ],
@@ -13056,12 +12894,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 285,
-        "yellow": 0,
-        "green": 285,
+        "orange": 245,
+        "yellow": 260,
+        "green": 275,
         "gray": 290
       },
-      "learned_at": 285,
+      "learned_at": 245,
       "source": [
         2
       ],
@@ -13103,12 +12941,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 295,
         "yellow": 310,
         "green": 325,
         "gray": 340
       },
-      "learned_at": 300,
+      "learned_at": 295,
       "source": [
         2
       ],
@@ -13160,12 +12998,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 295,
         "yellow": 310,
         "green": 325,
         "gray": 340
       },
-      "learned_at": 300,
+      "learned_at": 295,
       "source": [
         2
       ],
@@ -13217,12 +13055,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 150,
-        "yellow": 150,
+        "orange": 125,
+        "yellow": 145,
         "green": 160,
         "gray": 175
       },
-      "learned_at": 150,
+      "learned_at": 125,
       "source": [
         2
       ],
@@ -13289,12 +13127,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 260,
-        "yellow": 0,
-        "green": 260,
+        "orange": 215,
+        "yellow": 230,
+        "green": 245,
         "gray": 260
       },
-      "learned_at": 260,
+      "learned_at": 215,
       "source": [
         5
       ],
@@ -13336,12 +13174,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 255,
-        "yellow": 0,
-        "green": 255,
+        "orange": 210,
+        "yellow": 225,
+        "green": 240,
         "gray": 255
       },
-      "learned_at": 255,
+      "learned_at": 210,
       "source": [
         6
       ],
@@ -13368,12 +13206,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 280,
-        "yellow": 0,
-        "green": 280,
+        "orange": 235,
+        "yellow": 250,
+        "green": 265,
         "gray": 280
       },
-      "learned_at": 280,
+      "learned_at": 235,
       "source": [
         5
       ],
@@ -13410,12 +13248,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 265,
-        "yellow": 0,
-        "green": 265,
+        "orange": 220,
+        "yellow": 240,
+        "green": 255,
         "gray": 270
       },
-      "learned_at": 265,
+      "learned_at": 220,
       "source": [
         5
       ],
@@ -13484,12 +13322,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         5
       ],
@@ -13521,12 +13359,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 295,
-        "yellow": 0,
-        "green": 295,
+        "orange": 250,
+        "yellow": 265,
+        "green": 280,
         "gray": 295
       },
-      "learned_at": 295,
+      "learned_at": 250,
       "source": [
         2
       ],
@@ -13558,12 +13396,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 285,
-        "yellow": 0,
-        "green": 285,
+        "orange": 240,
+        "yellow": 255,
+        "green": 270,
         "gray": 285
       },
-      "learned_at": 285,
+      "learned_at": 240,
       "source": [
         2
       ],
@@ -13637,12 +13475,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 260,
-        "yellow": 0,
-        "green": 260,
+        "orange": 215,
+        "yellow": 230,
+        "green": 245,
         "gray": 260
       },
-      "learned_at": 260,
+      "learned_at": 215,
       "source": [
         5
       ],
@@ -13674,12 +13512,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 260,
+        "yellow": 275,
+        "green": 290,
         "gray": 305
       },
-      "learned_at": 300,
+      "learned_at": 260,
       "source": [
         2
       ],
@@ -13716,12 +13554,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 260,
-        "yellow": 0,
-        "green": 260,
+        "orange": 215,
+        "yellow": 230,
+        "green": 245,
         "gray": 260
       },
-      "learned_at": 260,
+      "learned_at": 215,
       "source": [
         2
       ],
@@ -13753,12 +13591,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 285,
         "yellow": 300,
         "green": 315,
         "gray": 330
       },
-      "learned_at": 300,
+      "learned_at": 285,
       "source": [
         2
       ],
@@ -13800,12 +13638,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 285,
         "yellow": 300,
         "green": 315,
         "gray": 330
       },
-      "learned_at": 300,
+      "learned_at": 285,
       "source": [
         2
       ],
@@ -13847,12 +13685,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 285,
         "yellow": 300,
         "green": 315,
         "gray": 330
       },
-      "learned_at": 300,
+      "learned_at": 285,
       "source": [
         2
       ],
@@ -13889,12 +13727,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 255,
+        "yellow": 270,
+        "green": 285,
         "gray": 300
       },
-      "learned_at": 300,
+      "learned_at": 255,
       "source": [
         5
       ],
@@ -14119,12 +13957,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 170,
-        "yellow": 170,
+        "orange": 135,
+        "yellow": 155,
         "green": 170,
         "gray": 185
       },
-      "learned_at": 170,
+      "learned_at": 135,
       "source": [
         2
       ],
@@ -14250,13 +14088,15 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 240,
-        "yellow": 0,
-        "green": 240,
+        "orange": 200,
+        "yellow": 215,
+        "green": 230,
         "gray": 245
       },
-      "learned_at": 240,
-      "source": [],
+      "learned_at": 200,
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -14290,13 +14130,15 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 225,
-        "yellow": 0,
-        "green": 225,
+        "orange": 190,
+        "yellow": 205,
+        "green": 220,
         "gray": 235
       },
-      "learned_at": 225,
-      "source": [],
+      "learned_at": 190,
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -14362,13 +14204,15 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 210,
-        "yellow": 0,
-        "green": 210,
+        "orange": 175,
+        "yellow": 190,
+        "green": 205,
         "gray": 220
       },
-      "learned_at": 210,
-      "source": [],
+      "learned_at": 175,
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -14397,13 +14241,15 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 215,
-        "yellow": 0,
-        "green": 215,
+        "orange": 180,
+        "yellow": 195,
+        "green": 210,
         "gray": 225
       },
-      "learned_at": 215,
-      "source": [],
+      "learned_at": 180,
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -14432,13 +14278,15 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 235,
-        "yellow": 0,
-        "green": 235,
+        "orange": 195,
+        "yellow": 210,
+        "green": 225,
         "gray": 240
       },
-      "learned_at": 235,
-      "source": [],
+      "learned_at": 195,
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -14749,12 +14597,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 160,
-        "yellow": 0,
-        "green": 0,
-        "gray": 160
+        "orange": 125,
+        "yellow": 135,
+        "green": 140,
+        "gray": 145
       },
-      "learned_at": 160,
+      "learned_at": 125,
       "source": [
         6
       ],
@@ -14788,6 +14636,7 @@
       },
       "learned_at": 125,
       "source": [
+        4,
         5
       ],
       "cooldown_seconds": null,
@@ -15105,12 +14954,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 235,
-        "yellow": 0,
-        "green": 0,
-        "gray": 235
+        "orange": 195,
+        "yellow": 200,
+        "green": 205,
+        "gray": 210
       },
-      "learned_at": 235,
+      "learned_at": 195,
       "source": [
         6
       ],
@@ -15147,12 +14996,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 40,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 40,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -15189,12 +15038,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 75,
+        "orange": 50,
         "yellow": 75,
         "green": 92,
         "gray": 110
       },
-      "learned_at": 75,
+      "learned_at": 50,
       "source": [
         6
       ],
@@ -15258,12 +15107,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 40,
         "green": 50,
         "gray": 60
       },
-      "learned_at": 1,
+      "learned_at": 40,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -15288,12 +15137,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 150,
-        "yellow": 150,
+        "orange": 125,
+        "yellow": 145,
         "green": 160,
         "gray": 175
       },
-      "learned_at": 150,
+      "learned_at": 125,
       "source": [
         6
       ],
@@ -15325,12 +15174,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 80,
+        "orange": 55,
         "yellow": 80,
         "green": 97,
         "gray": 115
       },
-      "learned_at": 80,
+      "learned_at": 55,
       "source": [
         6
       ],
@@ -15362,12 +15211,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 260,
-        "yellow": 0,
-        "green": 260,
+        "orange": 215,
+        "yellow": 230,
+        "green": 245,
         "gray": 260
       },
-      "learned_at": 260,
+      "learned_at": 215,
       "source": [
         5
       ],
@@ -15404,12 +15253,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 180,
-        "yellow": 180,
+        "orange": 145,
+        "yellow": 165,
         "green": 180,
         "gray": 195
       },
-      "learned_at": 180,
+      "learned_at": 145,
       "source": [
         2
       ],
@@ -15441,15 +15290,14 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 140,
-        "yellow": 140,
+        "orange": 115,
+        "yellow": 135,
         "green": 147,
         "gray": 160
       },
-      "learned_at": 140,
+      "learned_at": 115,
       "source": [
-        2,
-        16
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -15479,12 +15327,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 125,
+        "orange": 100,
         "yellow": 125,
         "green": 142,
         "gray": 160
       },
-      "learned_at": 125,
+      "learned_at": 100,
       "source": [
         6
       ],
@@ -15527,7 +15375,9 @@
         "gray": 145
       },
       "learned_at": 140,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -15556,12 +15406,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 200,
-        "yellow": 200,
+        "orange": 165,
+        "yellow": 185,
         "green": 200,
         "gray": 215
       },
-      "learned_at": 200,
+      "learned_at": 165,
       "source": [
         2
       ],
@@ -15603,12 +15453,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 120,
+        "orange": 95,
         "yellow": 120,
         "green": 137,
         "gray": 155
       },
-      "learned_at": 120,
+      "learned_at": 95,
       "source": [
         2
       ],
@@ -15645,12 +15495,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 120,
+        "orange": 95,
         "yellow": 120,
         "green": 137,
         "gray": 155
       },
-      "learned_at": 120,
+      "learned_at": 95,
       "source": [
         2,
         16
@@ -15688,12 +15538,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 110,
+        "orange": 85,
         "yellow": 110,
         "green": 127,
         "gray": 145
       },
-      "learned_at": 110,
+      "learned_at": 85,
       "source": [
         6
       ],
@@ -16014,12 +15864,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 150,
-        "yellow": 150,
+        "orange": 125,
+        "yellow": 145,
         "green": 160,
         "gray": 175
       },
-      "learned_at": 150,
+      "learned_at": 125,
       "source": [
         2
       ],
@@ -16056,12 +15906,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
+        "orange": 295,
         "yellow": 310,
         "green": 325,
         "gray": 340
       },
-      "learned_at": 300,
+      "learned_at": 295,
       "source": [
         2
       ],
@@ -16113,12 +15963,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 250,
-        "yellow": 0,
-        "green": 0,
-        "gray": 250
+        "orange": 140,
+        "yellow": 155,
+        "green": 170,
+        "gray": 185
       },
-      "learned_at": 250,
+      "learned_at": 140,
       "source": [
         5
       ],
@@ -16145,12 +15995,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 245,
-        "yellow": 0,
-        "green": 0,
-        "gray": 245
+        "orange": 140,
+        "yellow": 205,
+        "green": 210,
+        "gray": 215
       },
-      "learned_at": 245,
+      "learned_at": 140,
       "source": [
         5
       ],
@@ -16177,12 +16027,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 240,
-        "yellow": 0,
-        "green": 0,
-        "gray": 240
+        "orange": 200,
+        "yellow": 205,
+        "green": 210,
+        "gray": 215
       },
-      "learned_at": 240,
+      "learned_at": 200,
       "source": [
         5
       ],
@@ -16335,12 +16185,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 215,
-        "yellow": 0,
-        "green": 0,
-        "gray": 215
+        "orange": 180,
+        "yellow": 185,
+        "green": 190,
+        "gray": 195
       },
-      "learned_at": 215,
+      "learned_at": 180,
       "source": [
         2
       ],
@@ -16372,12 +16222,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 30,
+        "orange": 25,
         "yellow": 50,
         "green": 67,
         "gray": 85
       },
-      "learned_at": 30,
+      "learned_at": 25,
       "source": [
         6
       ],
@@ -16446,12 +16296,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 160,
-        "yellow": 0,
-        "green": 0,
-        "gray": 160
+        "orange": 125,
+        "yellow": 135,
+        "green": 140,
+        "gray": 145
       },
-      "learned_at": 160,
+      "learned_at": 125,
       "source": [
         6
       ],
@@ -16483,12 +16333,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 250,
-        "yellow": 0,
-        "green": 0,
-        "gray": 250
+        "orange": 140,
+        "yellow": 145,
+        "green": 150,
+        "gray": 155
       },
-      "learned_at": 250,
+      "learned_at": 140,
       "source": [
         5
       ],
@@ -16520,12 +16370,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 110,
+        "orange": 85,
         "yellow": 110,
         "green": 127,
         "gray": 145
       },
-      "learned_at": 110,
+      "learned_at": 85,
       "source": [
         6
       ],
@@ -16557,12 +16407,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 290,
-        "yellow": 0,
-        "green": 290,
+        "orange": 255,
+        "yellow": 270,
+        "green": 285,
         "gray": 300
       },
-      "learned_at": 290,
+      "learned_at": 255,
       "source": [
         5
       ],
@@ -16599,12 +16449,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 275,
-        "yellow": 0,
-        "green": 275,
+        "orange": 230,
+        "yellow": 245,
+        "green": 260,
         "gray": 275
       },
-      "learned_at": 275,
+      "learned_at": 230,
       "source": [
         2
       ],
@@ -16636,12 +16486,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 255,
+        "yellow": 270,
+        "green": 285,
         "gray": 300
       },
-      "learned_at": 300,
+      "learned_at": 255,
       "source": [
         2
       ],
@@ -16673,12 +16523,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 300,
-        "yellow": 0,
-        "green": 300,
+        "orange": 260,
+        "yellow": 275,
+        "green": 290,
         "gray": 305
       },
-      "learned_at": 300,
+      "learned_at": 260,
       "source": [
         2
       ],
@@ -16715,12 +16565,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 80,
-        "yellow": 80,
+        "orange": 50,
+        "yellow": 75,
         "green": 92,
         "gray": 110
       },
-      "learned_at": 80,
+      "learned_at": 50,
       "source": [
         6
       ],
@@ -16747,12 +16597,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 95,
+        "orange": 70,
         "yellow": 95,
         "green": 112,
         "gray": 130
       },
-      "learned_at": 95,
+      "learned_at": 70,
       "source": [
         6
       ],
@@ -16784,12 +16634,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 75,
+        "orange": 55,
         "yellow": 80,
         "green": 97,
         "gray": 115
       },
-      "learned_at": 75,
+      "learned_at": 55,
       "source": [
         6
       ],
@@ -18107,7 +17957,7 @@
     },
     "10008": {
       "name": "White Bandit Mask",
-      "sell_price": 4365,
+      "sell_price": 3492,
       "buy_price": 0
     },
     "10009": {
@@ -18371,7 +18221,7 @@
     },
     "249409": {
       "name": "Cerulean Dye",
-      "sell_price": 125,
+      "sell_price": 75,
       "buy_price": 0
     },
     "14046": {
@@ -18941,21 +18791,6 @@
       "sell_price": 30000,
       "buy_price": 0
     },
-    "814": {
-      "name": "Flask of Oil",
-      "sell_price": 25,
-      "buy_price": 0
-    },
-    "210781": {
-      "name": "Phoenix Bindings",
-      "sell_price": 1127,
-      "buy_price": 0
-    },
-    "211422": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
     "213378": {
       "name": "Unstable Microfilament",
       "sell_price": 0,
@@ -18964,21 +18799,6 @@
     "213379": {
       "name": "Hyperconductive Arcano-Filament",
       "sell_price": 280,
-      "buy_price": 0
-    },
-    "215365": {
-      "name": "Invoker's Mantle",
-      "sell_price": 1371,
-      "buy_price": 0
-    },
-    "1210": {
-      "name": "Shadowgem",
-      "sell_price": 250,
-      "buy_price": 0
-    },
-    "215366": {
-      "name": "Invoker's Cord",
-      "sell_price": 864,
       "buy_price": 0
     },
     "213369": {
@@ -18997,36 +18817,6 @@
       "buy_price": 0
     },
     "220688": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "227844": {
-      "name": "Leather-Reinforced Runecloth Bag",
-      "sell_price": 40000,
-      "buy_price": 0
-    },
-    "234009": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234007": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234008": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "20381": {
-      "name": "Dreamscale",
-      "sell_price": 5000,
-      "buy_price": 0
-    },
-    "236656": {
       "name": "",
       "sell_price": 0,
       "buy_price": 0
@@ -19058,7 +18848,7 @@
     },
     "253667": {
       "name": "Woolen Reagent Bag",
-      "sell_price": 5000,
+      "sell_price": 1250,
       "buy_price": 0
     },
     "2455": {
@@ -19100,6 +18890,11 @@
     "253893": {
       "name": "Flame Boots",
       "sell_price": 323,
+      "buy_price": 0
+    },
+    "1210": {
+      "name": "Shadowgem",
+      "sell_price": 250,
       "buy_price": 0
     },
     "253895": {
@@ -19699,7 +19494,7 @@
     },
     "254123": {
       "name": "Runecloth Cuffs",
-      "sell_price": 7688,
+      "sell_price": 6908,
       "buy_price": 0
     },
     "254125": {
@@ -20708,11 +20503,6 @@
       "sell_price": 1250,
       "buy_price": 0
     },
-    "211247": {
-      "name": "Pattern: Phoenix Bindings",
-      "sell_price": 1000,
-      "buy_price": 75000
-    },
     "215149": {
       "name": "Pattern: Gneuro-Linked Arcano-Filament Monocle",
       "sell_price": 1875,
@@ -20722,41 +20512,6 @@
       "name": "Pattern: Hyperconductive Arcano-Filament",
       "sell_price": 1875,
       "buy_price": 25000
-    },
-    "215369": {
-      "name": "Pattern: Invoker's Cord",
-      "sell_price": 175,
-      "buy_price": 700
-    },
-    "215370": {
-      "name": "Pattern: Invoker's Mantle",
-      "sell_price": 175,
-      "buy_price": 700
-    },
-    "217244": {
-      "name": "Pattern: Crimson Silk Robe",
-      "sell_price": 1250,
-      "buy_price": 5000
-    },
-    "217249": {
-      "name": "Pattern: Earthen Silk Belt",
-      "sell_price": 375,
-      "buy_price": 0
-    },
-    "217251": {
-      "name": "Pattern: Crimson Silk Shoulders",
-      "sell_price": 350,
-      "buy_price": 0
-    },
-    "217254": {
-      "name": "Pattern: Boots of the Enchanter",
-      "sell_price": 275,
-      "buy_price": 0
-    },
-    "217258": {
-      "name": "Pattern: Enchanter's Cowl",
-      "sell_price": 250,
-      "buy_price": 1000
     },
     "227896": {
       "name": "Pattern: Argent Boots",
@@ -20768,78 +20523,8 @@
       "sell_price": 10000,
       "buy_price": 0
     },
-    "228121": {
-      "name": "Pattern: Leather-Reinforced Runecloth Bag",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "228303": {
-      "name": "Pattern: Incandescent Mooncloth Robe",
-      "sell_price": 10000,
-      "buy_price": 40000
-    },
-    "228316": {
-      "name": "Pattern: Incandescent Mooncloth Vest",
-      "sell_price": 7500,
-      "buy_price": 0
-    },
-    "228317": {
-      "name": "Pattern: Incandescent Mooncloth Circlet",
-      "sell_price": 15000,
-      "buy_price": 0
-    },
-    "228318": {
-      "name": "Pattern: Incandescent Mooncloth Leggings",
-      "sell_price": 5500,
-      "buy_price": 0
-    },
-    "228477": {
-      "name": "Pattern: Embroidered Belt of the Archmage",
-      "sell_price": 30000,
-      "buy_price": 0
-    },
-    "228993": {
-      "name": "Pattern: Bottomless Bag",
-      "sell_price": 15000,
-      "buy_price": 0
-    },
-    "238298": {
-      "name": "Pattern: Scarlet Augur's Hood",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238299": {
-      "name": "Pattern: Scarlet Augur's Mantle",
-      "sell_price": 0,
-      "buy_price": 0
-    },
     "238300": {
       "name": "Pattern: Scarlet Augur's Vestments",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238301": {
-      "name": "Pattern: Scarlet Augur's Cuffs",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238302": {
-      "name": "Pattern: Scarlet Augur's Mitts",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238303": {
-      "name": "Pattern: Scarlet Augur's Strap",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238304": {
-      "name": "Pattern: Scarlet Augur's Leggings",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238305": {
-      "name": "Pattern: Scarlet Augur's Soles",
       "sell_price": 0,
       "buy_price": 0
     },

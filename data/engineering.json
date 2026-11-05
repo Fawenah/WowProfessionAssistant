@@ -2,7 +2,7 @@
   "profession": "engineering",
   "skill_id": 202,
   "url": "https://www.wowhead.com/forever/skill=202/engineering",
-  "scraped_at": "2026-10-04T19:10:59.873245+00:00",
+  "scraped_at": "2026-11-04T17:59:35.798683+00:00",
   "recipes": [
     {
       "id": 1293088,
@@ -19,7 +19,9 @@
         "gray": 145
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -678,8 +680,7 @@
       },
       "learned_at": 175,
       "source": [
-        2,
-        16
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -817,6 +818,7 @@
       },
       "learned_at": 190,
       "source": [
+        4,
         5
       ],
       "cooldown_seconds": null,
@@ -1249,8 +1251,7 @@
       },
       "learned_at": 185,
       "source": [
-        2,
-        21
+        2
       ],
       "cooldown_seconds": null,
       "reagents": [
@@ -2945,7 +2946,9 @@
         "gray": 270
       },
       "learned_at": 230,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3043,7 +3046,9 @@
         "gray": 280
       },
       "learned_at": 240,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3088,7 +3093,9 @@
         "gray": 250
       },
       "learned_at": 210,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3133,7 +3140,9 @@
         "gray": 255
       },
       "learned_at": 215,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3178,7 +3187,9 @@
         "gray": 275
       },
       "learned_at": 235,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3223,7 +3234,9 @@
         "gray": 250
       },
       "learned_at": 210,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3310,7 +3323,9 @@
         "gray": 265
       },
       "learned_at": 225,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3355,7 +3370,9 @@
         "gray": 245
       },
       "learned_at": 205,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3487,7 +3504,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 230,
         "yellow": 230,
         "green": 250,
         "gray": 270
@@ -3534,12 +3551,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 205,
         "yellow": 225,
         "green": 235,
         "gray": 245
       },
-      "learned_at": 225,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -3571,12 +3588,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 240,
         "yellow": 260,
         "green": 270,
         "gray": 280
       },
-      "learned_at": 260,
+      "learned_at": 240,
       "source": [
         6
       ],
@@ -3618,7 +3635,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 165,
+        "orange": 0,
         "yellow": 165,
         "green": 180,
         "gray": 200
@@ -3838,12 +3855,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 130,
+        "orange": 225,
         "yellow": 245,
         "green": 255,
         "gray": 265
       },
-      "learned_at": 130,
+      "learned_at": 225,
       "source": [
         2,
         6
@@ -3886,7 +3903,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 205,
         "yellow": 205,
         "green": 205,
         "gray": 205
@@ -3918,12 +3935,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 245,
         "yellow": 265,
         "green": 275,
         "gray": 285
       },
-      "learned_at": 265,
+      "learned_at": 245,
       "source": [
         6
       ],
@@ -3960,7 +3977,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 205,
         "yellow": 205,
         "green": 225,
         "gray": 245
@@ -4518,6 +4535,7 @@
       },
       "learned_at": 140,
       "source": [
+        4,
         5
       ],
       "cooldown_seconds": null,
@@ -4683,7 +4701,9 @@
         "gray": 205
       },
       "learned_at": 205,
-      "source": [],
+      "source": [
+        6
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -6092,8 +6112,8 @@
       "skill_ranges": {
         "orange": 205,
         "yellow": 205,
-        "green": 205,
-        "gray": 205
+        "green": 207,
+        "gray": 210
       },
       "learned_at": 205,
       "source": [],
@@ -6348,7 +6368,7 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 20,
         "yellow": 20,
         "green": 22,
         "gray": 25
@@ -6512,12 +6532,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 20,
         "green": 30,
         "gray": 40
       },
-      "learned_at": 1,
+      "learned_at": 20,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -6616,12 +6636,12 @@
         "max_qty": 2
       },
       "skill_ranges": {
-        "orange": 1,
+        "orange": 0,
         "yellow": 30,
         "green": 45,
         "gray": 60
       },
-      "learned_at": 1,
+      "learned_at": 30,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -6724,7 +6744,9 @@
         "gray": 195
       },
       "learned_at": 145,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -7198,12 +7220,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 120,
         "yellow": 130,
         "green": 142,
         "gray": 155
       },
-      "learned_at": 130,
+      "learned_at": 120,
       "source": [
         6
       ],
@@ -7462,9 +7484,7 @@
         "gray": 145
       },
       "learned_at": 135,
-      "source": [
-        2
-      ],
+      "source": [],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -7995,43 +8015,6 @@
       ]
     },
     {
-      "id": 431362,
-      "name": "Soul Vessel",
-      "creates": {
-        "item_id": 211427,
-        "min_qty": 1,
-        "max_qty": 1
-      },
-      "skill_ranges": {
-        "orange": 205,
-        "yellow": 205,
-        "green": 210,
-        "gray": 215
-      },
-      "learned_at": 205,
-      "source": [
-        5
-      ],
-      "cooldown_seconds": null,
-      "reagents": [
-        {
-          "item_id": 1210,
-          "name": "Shadowgem",
-          "quantity": 4
-        },
-        {
-          "item_id": 9262,
-          "name": "Black Vitriol",
-          "quantity": 1
-        },
-        {
-          "item_id": 16583,
-          "name": "Demonic Figurine",
-          "quantity": 1
-        }
-      ]
-    },
-    {
       "id": 12615,
       "name": "Spellpower Goggles Xtreme",
       "creates": {
@@ -8379,7 +8362,7 @@
         "max_qty": 2
       },
       "skill_ranges": {
-        "orange": 0,
+        "orange": 235,
         "yellow": 235,
         "green": 255,
         "gray": 275
@@ -8736,12 +8719,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 250,
+        "orange": 0,
         "yellow": 320,
         "green": 330,
         "gray": 340
       },
-      "learned_at": 250,
+      "learned_at": 320,
       "source": [],
       "cooldown_seconds": null,
       "reagents": [
@@ -9708,7 +9691,7 @@
     },
     "4369": {
       "name": "Deadly Blunderbuss",
-      "sell_price": 1179,
+      "sell_price": 790,
       "buy_price": 0
     },
     "4370": {
@@ -10850,22 +10833,6 @@
       "sell_price": 0,
       "buy_price": 0
     },
-    "9262": {
-      "name": "Black Vitriol",
-      "sell_price": 1000,
-      "buy_price": 0
-    },
-    "16583": {
-      "name": "Demonic Figurine",
-      "sell_price": 2500,
-      "buy_price": 10000,
-      "orgrimmar_vendor": true
-    },
-    "211427": {
-      "name": "Soul Vessel",
-      "sell_price": 0,
-      "buy_price": 0
-    },
     "213381": {
       "name": "Pile of Tarnished Gears",
       "sell_price": 0,
@@ -10919,76 +10886,6 @@
     "220689": {
       "name": "",
       "sell_price": 0,
-      "buy_price": 0
-    },
-    "20725": {
-      "name": "Nexus Crystal",
-      "sell_price": 1,
-      "buy_price": 0
-    },
-    "234011": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234005": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234007": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234008": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234012": {
-      "name": "Hive Thistle",
-      "sell_price": 15,
-      "buy_price": 0
-    },
-    "234009": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234010": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "234003": {
-      "name": "",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "22202": {
-      "name": "Small Obsidian Shard",
-      "sell_price": 2500,
-      "buy_price": 0
-    },
-    "20868": {
-      "name": "Lambent Idol",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "20870": {
-      "name": "Jasper Idol",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "20881": {
-      "name": "Idol of Strife",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "12363": {
-      "name": "Arcane Crystal",
-      "sell_price": 2000,
       "buy_price": 0
     },
     "238737": {
@@ -11049,7 +10946,7 @@
     },
     "249409": {
       "name": "Cerulean Dye",
-      "sell_price": 125,
+      "sell_price": 75,
       "buy_price": 0
     },
     "260784": {
@@ -11184,7 +11081,7 @@
     },
     "249726": {
       "name": "Azerothium Bar",
-      "sell_price": 5000,
+      "sell_price": 3000,
       "buy_price": 0
     },
     "260813": {
@@ -11364,12 +11261,12 @@
     },
     "274048": {
       "name": "9-60 Battery Pack",
-      "sell_price": 2500,
+      "sell_price": 1000,
       "buy_price": 0
     },
     "251291": {
       "name": "Heavy Thorium Bar",
-      "sell_price": 2500,
+      "sell_price": 1500,
       "buy_price": 0
     },
     "17056": {
@@ -11429,7 +11326,7 @@
     },
     "280308": {
       "name": "Clanking Cord",
-      "sell_price": 2153,
+      "sell_price": 1033,
       "buy_price": 0
     },
     "280310": {
@@ -11439,17 +11336,17 @@
     },
     "280311": {
       "name": "Bent Goggles",
-      "sell_price": 6273,
+      "sell_price": 3764,
       "buy_price": 0
     },
     "280312": {
       "name": "Stuckbutton Goggles",
-      "sell_price": 7568,
+      "sell_price": 3784,
       "buy_price": 0
     },
     "280313": {
       "name": "Dented Goggles",
-      "sell_price": 8805,
+      "sell_price": 2201,
       "buy_price": 0
     },
     "284869": {
@@ -11459,22 +11356,22 @@
     },
     "285275": {
       "name": "Satchel of Copper Bombs",
-      "sell_price": 9,
+      "sell_price": 821,
       "buy_price": 0
     },
     "285276": {
       "name": "Satchel of Bronze Bombs",
-      "sell_price": 9,
+      "sell_price": 4484,
       "buy_price": 0
     },
     "285277": {
       "name": "Satchel of Iron Bombs",
-      "sell_price": 9,
+      "sell_price": 13124,
       "buy_price": 0
     },
     "285278": {
       "name": "Satchel of Dark Iron Bombs",
-      "sell_price": 9,
+      "sell_price": 26602,
       "buy_price": 0
     },
     "21560": {
@@ -11952,11 +11849,6 @@
       "sell_price": 3000,
       "buy_price": 0
     },
-    "212230": {
-      "name": "Schematic: Soul Vessel",
-      "sell_price": 675,
-      "buy_price": 20000
-    },
     "215153": {
       "name": "Schematic: Whirling Truesilver Gearwall",
       "sell_price": 1280,
@@ -11985,31 +11877,6 @@
     "221336": {
       "name": "Schematic: Goblin Mining Helmet",
       "sell_price": 0,
-      "buy_price": 0
-    },
-    "236872": {
-      "name": "Schematic: Creepy Censor Sensors",
-      "sell_price": 0,
-      "buy_price": 0
-    },
-    "238782": {
-      "name": "Schematic: Tinkerbox",
-      "sell_price": 1250,
-      "buy_price": 0
-    },
-    "238783": {
-      "name": "Schematic: Tinkerbox: Teleport",
-      "sell_price": 1300,
-      "buy_price": 0
-    },
-    "238784": {
-      "name": "Schematic: Tinkerbox: Nitro Boosts",
-      "sell_price": 1300,
-      "buy_price": 0
-    },
-    "238785": {
-      "name": "Schematic: Tinkerbox: Magnetic Displacement",
-      "sell_price": 1300,
       "buy_price": 0
     },
     "238789": {
