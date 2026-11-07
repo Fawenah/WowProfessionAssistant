@@ -1,3 +1,4 @@
 __pycache__/*
+.venv/
 prices/*
 data/reagent-cache.json
