@@ -2,3 +2,4 @@ __pycache__/*
 .venv/
 prices/*
 data/reagent-cache.json
+data/prices/Auctionator.lua
