@@ -117,104 +117,171 @@ def enrich_with_names(prices: dict[str, int], names: dict[str, str]) -> dict[str
 # Auctionator source
 # ---------------------------------------------------------------------------
 
-def _extract_braces(text: str, start: int) -> str | None:
-    """Return the substring from `start` to the matching closing brace,
-    skipping string literals so inner braces don't affect the depth count."""
-    depth = 0
-    i = start
-    in_string = False
-    string_char = ""
-    while i < len(text):
-        c = text[i]
-        if in_string:
-            if c == "\\" and i + 1 < len(text):
-                i += 2
-                continue
-            if c == string_char:
-                in_string = False
-        else:
-            if c in ('"', "'"):
-                in_string = True
-                string_char = c
-            elif c == "{":
-                depth += 1
-            elif c == "}":
-                depth -= 1
-                if depth == 0:
-                    return text[start : i + 1]
+_LUA_ESCAPES = {
+    "n": 10, "r": 13, "t": 9, "a": 7, "b": 8, "f": 12, "v": 11,
+    "\\": 92, '"': 34, "'": 39, "\n": 10,
+}
+
+
+def _read_lua_string(data: bytes, start: int) -> tuple[bytes, int]:
+    """Read a double-quoted Lua string literal beginning at data[start] == '"'.
+    Returns (decoded_bytes, index_after_closing_quote)."""
+    assert data[start] == 0x22
+    out = bytearray()
+    i = start + 1
+    while i < len(data):
+        c = data[i]
+        if c == 0x22:  # closing quote
+            return bytes(out), i + 1
+        if c == 0x5C:  # backslash
+            i += 1
+            nxt = chr(data[i])
+            if nxt in _LUA_ESCAPES:
+                out.append(_LUA_ESCAPES[nxt])
+                i += 1
+            elif nxt.isdigit():  # \ddd decimal escape (1-3 digits)
+                j = i
+                while j < len(data) and j < i + 3 and chr(data[j]).isdigit():
+                    j += 1
+                out.append(int(data[i:j]))
+                i = j
+            else:
+                out.append(data[i])
+                i += 1
+            continue
+        out.append(c)
         i += 1
-    return None
+    raise ValueError("Unterminated Lua string literal")
+
+
+def _cbor_decode(buf: bytes, pos: int = 0):
+    """Minimal CBOR decoder (RFC 8949). Returns (value, new_pos)."""
+    import struct
+
+    ib = buf[pos]
+    major, info = ib >> 5, ib & 0x1F
+    pos += 1
+
+    if info < 24:
+        arg = info
+    elif info in (24, 25, 26, 27):
+        n = 1 << (info - 24)
+        arg = int.from_bytes(buf[pos:pos + n], "big")
+        pos += n
+    elif info == 31:
+        arg = None  # indefinite length
+    else:
+        raise ValueError(f"Unsupported CBOR additional info {info}")
+
+    if major == 0:
+        return arg, pos
+    if major == 1:
+        return -1 - arg, pos
+    if major in (2, 3):
+        if arg is None:
+            chunks = b""
+            while buf[pos] != 0xFF:
+                chunk, pos = _cbor_decode(buf, pos)
+                chunks += chunk if isinstance(chunk, bytes) else chunk.encode()
+            pos += 1
+            raw = chunks
+        else:
+            raw = buf[pos:pos + arg]
+            pos += arg
+        return (raw if major == 2 else raw.decode("utf-8", errors="replace")), pos
+    if major == 4:
+        items = []
+        if arg is None:
+            while buf[pos] != 0xFF:
+                v, pos = _cbor_decode(buf, pos)
+                items.append(v)
+            pos += 1
+        else:
+            for _ in range(arg):
+                v, pos = _cbor_decode(buf, pos)
+                items.append(v)
+        return items, pos
+    if major == 5:
+        result = {}
+        count = 0
+        while (arg is None and buf[pos] != 0xFF) or (arg is not None and count < arg):
+            k, pos = _cbor_decode(buf, pos)
+            v, pos = _cbor_decode(buf, pos)
+            result[k] = v
+            count += 1
+        if arg is None:
+            pos += 1
+        return result, pos
+    if major == 6:  # tag: ignore, decode the tagged value
+        return _cbor_decode(buf, pos)
+    # major 7: simple values and floats
+    if info == 20:
+        return False, pos
+    if info == 21:
+        return True, pos
+    if info in (22, 23):
+        return None, pos
+    if info == 25:
+        return struct.unpack(">e", buf[pos - 2:pos])[0], pos
+    if info == 26:
+        return struct.unpack(">f", buf[pos - 4:pos])[0], pos
+    if info == 27:
+        return struct.unpack(">d", buf[pos - 8:pos])[0], pos
+    raise ValueError(f"Unsupported CBOR simple value {info}")
 
 
 def parse_auctionator_lua(lua_path: Path) -> tuple[dict, list[str]]:
     """
     Parse AUCTIONATOR_PRICE_DATABASE from a SavedVariables Lua file.
+
+    Auctionator (db version 8) stores each realm as a CBOR-serialized binary
+    string: {db_key: {m=last_min_price, h={...}, l={...}, a={...}}}, where
+    db_key is an item ID ("2589"), a pet ("p:123") or gear ("g:<id>:<ilvl>").
+
     Returns (realm_data, realm_names) where realm_data maps
-    realm_str → {item_name: min_price_copper}.
+    realm → {item_id_str: min_price_copper} (plain item IDs only).
     """
-    import json5
+    import re
 
-    text = lua_path.read_text(encoding="utf-8", errors="replace")
+    data = lua_path.read_bytes()
 
-    # Find the assignment and extract the outer table block
-    marker = "AUCTIONATOR_PRICE_DATABASE"
-    idx = text.find(marker)
-    if idx == -1:
+    m = re.search(rb"^AUCTIONATOR_PRICE_DATABASE\s*=\s*\{", data, re.M)
+    if not m:
         raise ValueError(f"AUCTIONATOR_PRICE_DATABASE not found in {lua_path}")
+    end = re.compile(rb"^AUCTIONATOR_\w+\s*=", re.M).search(data, m.end())
+    block_end = end.start() if end else len(data)
 
-    brace_start = text.find("{", idx)
-    if brace_start == -1:
-        raise ValueError("No opening brace found after AUCTIONATOR_PRICE_DATABASE")
-
-    block = _extract_braces(text, brace_start)
-    if not block:
-        raise ValueError("Could not find matching closing brace")
-
-    raw = json5.loads(block)
-
-    # raw: { "Realm-Faction": { "Item Name": { m=..., h=..., l=..., a=... } } }
     realm_data: dict[str, dict[str, int]] = {}
-    for realm, items in raw.items():
-        if not isinstance(items, dict):
+    entry = re.compile(rb'\["([^"]+)"\]\s*=\s*"')
+    pos = m.end()
+    while True:
+        em = entry.search(data, pos, block_end)
+        if not em:
+            break
+        realm = em.group(1).decode("utf-8", errors="replace")
+        blob, pos = _read_lua_string(data, em.end() - 1)
+        decoded, _ = _cbor_decode(blob)
+        if not isinstance(decoded, dict):
             continue
-        realm_data[realm] = {
-            name: int(entry["m"])
-            for name, entry in items.items()
-            if isinstance(entry, dict) and entry.get("m")
-        }
+        # Lua strings are serialized as CBOR byte strings, so keys arrive as bytes.
+        prices: dict[str, int] = {}
+        for key, v in decoded.items():
+            key = key.decode("utf-8", errors="replace") if isinstance(key, bytes) else str(key)
+            if not key.isdigit() or not isinstance(v, dict):
+                continue  # skip pets ("p:..."), gear ("g:..."), __dbversion
+            price = v.get(b"m", v.get("m"))
+            if price:
+                prices[key] = int(price)
+        realm_data[realm] = prices
 
+    if not realm_data:
+        raise ValueError("No realm data found in AUCTIONATOR_PRICE_DATABASE")
     return realm_data, list(realm_data.keys())
 
 
-def build_name_to_id() -> dict[str, str]:
-    """Build a reverse {item_name_lower: item_id} lookup from profession JSON files."""
-    name_to_id: dict[str, str] = {}
-    for path in DATA_DIR.glob("*.json"):
-        try:
-            data = json.loads(path.read_text())
-        except Exception:
-            continue
-        for item_id, info in data.get("items", {}).items():
-            name = info.get("name", "")
-            if name:
-                key = name.lower()
-                if key not in name_to_id:
-                    name_to_id[key] = item_id
-    return name_to_id
-
-
 def auctionator_prices(realm_data: dict[str, dict[str, int]], realm: str) -> dict[str, int]:
-    """
-    Resolve Auctionator item names to item IDs using profession JSON data.
-    Returns {item_id_str: min_buyout_copper} for matched items.
-    """
-    name_to_id = build_name_to_id()
-    prices: dict[str, int] = {}
-    for item_name, price in realm_data[realm].items():
-        item_id = name_to_id.get(item_name.lower())
-        if item_id:
-            prices[item_id] = price
-    return prices
+    """Return {item_id_str: min_buyout_copper} for a realm (keys are already item IDs)."""
+    return dict(realm_data[realm])
 
 
 def main() -> None:
@@ -224,7 +291,7 @@ def main() -> None:
         list_markets()
         return
 
-    source = args[0].lower() if args else ""
+    source = args[0].lower().lstrip("-") if args else ""
 
     # --- Auctionator mode ---
     if source == "auctionator":
@@ -271,7 +338,7 @@ def main() -> None:
         entries = enrich_with_names(prices, names)
 
         print(f"Realm  : {realm}")
-        print(f"Items  : {len(realm_data[realm])} in Lua, {len(entries)} matched to item IDs")
+        print(f"Items  : {len(entries)} priced items in Lua")
 
         output = {
             "source":     "auctionator",
