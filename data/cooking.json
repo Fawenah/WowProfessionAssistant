@@ -2,7 +2,7 @@
   "profession": "cooking",
   "skill_id": 185,
   "url": "https://www.wowhead.com/forever/skill=185/cooking",
-  "scraped_at": "2026-11-04T17:36:04.711314+00:00",
+  "scraped_at": "2026-11-07T12:33:54.421782+00:00",
   "recipes": [
     {
       "id": 18247,
@@ -399,7 +399,9 @@
         "gray": 240
       },
       "learned_at": 200,
-      "source": [],
+      "source": [
+        4
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -2336,6 +2338,7 @@
       },
       "learned_at": 185,
       "source": [
+        4,
         5
       ],
       "cooldown_seconds": null,
@@ -4292,7 +4295,7 @@
     },
     "2678": {
       "name": "Mild Spices",
-      "sell_price": 2,
+      "sell_price": 1,
       "buy_price": 10,
       "orgrimmar_vendor": true
     },

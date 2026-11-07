@@ -2,7 +2,7 @@
   "profession": "alchemy",
   "skill_id": 171,
   "url": "https://www.wowhead.com/forever/skill=171/alchemy",
-  "scraped_at": "2026-11-04T16:53:50.456012+00:00",
+  "scraped_at": "2026-11-07T12:30:42.161382+00:00",
   "recipes": [
     {
       "id": 17632,
@@ -7106,7 +7106,8 @@
     "12363": {
       "name": "Arcane Crystal",
       "sell_price": 2000,
-      "buy_price": 0
+      "buy_price": 8000,
+      "orgrimmar_vendor": false
     },
     "12360": {
       "name": "Arcanite Bar",
@@ -7286,7 +7287,8 @@
     "13468": {
       "name": "Black Lotus",
       "sell_price": 1000,
-      "buy_price": 0
+      "buy_price": 4000,
+      "orgrimmar_vendor": false
     },
     "13503": {
       "name": "Alchemist's Stone",
@@ -7493,7 +7495,8 @@
     "249399": {
       "name": "Frilled Lichen",
       "sell_price": 30,
-      "buy_price": 0
+      "buy_price": 120,
+      "orgrimmar_vendor": false
     },
     "249409": {
       "name": "Cerulean Dye",
@@ -7503,7 +7506,8 @@
     "249424": {
       "name": "Rosecap",
       "sell_price": 95,
-      "buy_price": 0
+      "buy_price": 380,
+      "orgrimmar_vendor": false
     },
     "249430": {
       "name": "Magenta Dye",
@@ -7513,7 +7517,8 @@
     "249274": {
       "name": "Stranglevine",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "249431": {
       "name": "Viridian Dye",
@@ -7523,7 +7528,8 @@
     "249391": {
       "name": "Pyrite",
       "sell_price": 100,
-      "buy_price": 0
+      "buy_price": 400,
+      "orgrimmar_vendor": false
     },
     "249410": {
       "name": "Sulfuric Acid",
@@ -7798,7 +7804,8 @@
     "248822": {
       "name": "Death Lotus",
       "sell_price": 1500,
-      "buy_price": 0
+      "buy_price": 6000,
+      "orgrimmar_vendor": false
     },
     "248821": {
       "name": "Demonsage",
@@ -7838,7 +7845,8 @@
     "248819": {
       "name": "Fel Crystal",
       "sell_price": 3000,
-      "buy_price": 0
+      "buy_price": 12000,
+      "orgrimmar_vendor": false
     },
     "251290": {
       "name": "Legionite Bar",

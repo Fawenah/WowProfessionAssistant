@@ -2,7 +2,7 @@
   "profession": "enchanting",
   "skill_id": 333,
   "url": "https://www.wowhead.com/forever/skill=333/enchanting",
-  "scraped_at": "2026-11-04T17:40:40.675597+00:00",
+  "scraped_at": "2026-11-07T12:34:36.289581+00:00",
   "recipes": [
     {
       "id": 1263082,
@@ -2884,7 +2884,8 @@
     "13468": {
       "name": "Black Lotus",
       "sell_price": 1000,
-      "buy_price": 0
+      "buy_price": 4000,
+      "orgrimmar_vendor": false
     },
     "11754": {
       "name": "Black Diamond",
@@ -3042,12 +3043,14 @@
     "249391": {
       "name": "Pyrite",
       "sell_price": 100,
-      "buy_price": 0
+      "buy_price": 400,
+      "orgrimmar_vendor": false
     },
     "249399": {
       "name": "Frilled Lichen",
       "sell_price": 30,
-      "buy_price": 0
+      "buy_price": 120,
+      "orgrimmar_vendor": false
     },
     "2775": {
       "name": "Silver Ore",
@@ -3123,12 +3126,14 @@
     "249425": {
       "name": "Bauxite",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "249424": {
       "name": "Rosecap",
       "sell_price": 95,
-      "buy_price": 0
+      "buy_price": 380,
+      "orgrimmar_vendor": false
     },
     "249453": {
       "name": "Radiant Staff",
@@ -3188,12 +3193,14 @@
     "248819": {
       "name": "Fel Crystal",
       "sell_price": 3000,
-      "buy_price": 0
+      "buy_price": 12000,
+      "orgrimmar_vendor": false
     },
     "248820": {
       "name": "Torbernite",
       "sell_price": 15000,
-      "buy_price": 0
+      "buy_price": 60000,
+      "orgrimmar_vendor": false
     },
     "249726": {
       "name": "Azerothium Bar",
@@ -3203,7 +3210,8 @@
     "249274": {
       "name": "Stranglevine",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "249431": {
       "name": "Viridian Dye",
@@ -3233,7 +3241,8 @@
     "248822": {
       "name": "Death Lotus",
       "sell_price": 1500,
-      "buy_price": 0
+      "buy_price": 6000,
+      "orgrimmar_vendor": false
     },
     "249385": {
       "name": "Brilliant Wand",
@@ -3293,7 +3302,8 @@
     "12363": {
       "name": "Arcane Crystal",
       "sell_price": 2000,
-      "buy_price": 0
+      "buy_price": 8000,
+      "orgrimmar_vendor": false
     },
     "12361": {
       "name": "Blue Sapphire",
@@ -4113,7 +4123,7 @@
     "289560": {
       "name": "Formula: Enchant Boots - Speed",
       "sell_price": 1550,
-      "buy_price": 0
+      "buy_price": 6200
     },
     "6222": {
       "name": "Formula: Imbue Chest - Minor Spirit",

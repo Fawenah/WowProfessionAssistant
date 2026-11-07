@@ -2,7 +2,7 @@
   "profession": "blacksmithing",
   "skill_id": 164,
   "url": "https://www.wowhead.com/forever/skill=164/blacksmithing",
-  "scraped_at": "2026-11-04T17:25:11.837176+00:00",
+  "scraped_at": "2026-11-07T12:32:04.461606+00:00",
   "recipes": [
     {
       "id": 1252255,
@@ -103,7 +103,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -138,7 +140,9 @@
         "gray": 100
       },
       "learned_at": 95,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -173,7 +177,9 @@
         "gray": 85
       },
       "learned_at": 80,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -483,7 +489,9 @@
         "gray": 280
       },
       "learned_at": 270,
-      "source": [],
+      "source": [
+        5
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3376,7 +3384,9 @@
         "gray": 120
       },
       "learned_at": 110,
-      "source": [],
+      "source": [
+        5
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3495,7 +3505,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3530,7 +3542,9 @@
         "gray": 100
       },
       "learned_at": 95,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -3565,7 +3579,9 @@
         "gray": 85
       },
       "learned_at": 80,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -6834,7 +6850,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -6869,7 +6887,9 @@
         "gray": 100
       },
       "learned_at": 95,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -10278,7 +10298,9 @@
         "gray": 205
       },
       "learned_at": 195,
-      "source": [],
+      "source": [
+        5
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -10682,6 +10704,7 @@
       },
       "learned_at": 190,
       "source": [
+        4,
         5
       ],
       "cooldown_seconds": null,
@@ -12245,7 +12268,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -12280,7 +12305,9 @@
         "gray": 100
       },
       "learned_at": 95,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -12315,7 +12342,9 @@
         "gray": 85
       },
       "learned_at": 80,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -15843,12 +15872,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 220,
+        "orange": 0,
         "yellow": 240,
         "green": 250,
         "gray": 260
       },
-      "learned_at": 220,
+      "learned_at": 240,
       "source": [
         6
       ],
@@ -15940,12 +15969,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 200,
+        "orange": 0,
         "yellow": 220,
         "green": 230,
         "gray": 240
       },
-      "learned_at": 200,
+      "learned_at": 220,
       "source": [
         6
       ],
@@ -16146,7 +16175,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -16181,7 +16212,9 @@
         "gray": 100
       },
       "learned_at": 95,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -16216,7 +16249,9 @@
         "gray": 85
       },
       "learned_at": 80,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -19238,7 +19273,8 @@
     "249427": {
       "name": "Pristine Leather",
       "sell_price": 125,
-      "buy_price": 0
+      "buy_price": 500,
+      "orgrimmar_vendor": false
     },
     "250503": {
       "name": "Veteran's Boots",
@@ -19879,12 +19915,14 @@
     "248820": {
       "name": "Torbernite",
       "sell_price": 15000,
-      "buy_price": 0
+      "buy_price": 60000,
+      "orgrimmar_vendor": false
     },
     "248822": {
       "name": "Death Lotus",
       "sell_price": 1500,
-      "buy_price": 0
+      "buy_price": 6000,
+      "orgrimmar_vendor": false
     },
     "250619": {
       "name": "Legionite Glaive",
@@ -21885,17 +21923,17 @@
     "285289": {
       "name": "Plans: Cracked Blacksmith Hammer",
       "sell_price": 1000,
-      "buy_price": 0
+      "buy_price": 5000
     },
     "285290": {
       "name": "Plans: Mithril Blacksmith Hammer",
       "sell_price": 1000,
-      "buy_price": 0
+      "buy_price": 5000
     },
     "285291": {
       "name": "Plans: Arcanite Blacksmith Hammer",
       "sell_price": 1000,
-      "buy_price": 0
+      "buy_price": 5000
     },
     "8663": {
       "name": "Mithril Insignia",

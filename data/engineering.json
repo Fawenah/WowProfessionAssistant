@@ -2,7 +2,7 @@
   "profession": "engineering",
   "skill_id": 202,
   "url": "https://www.wowhead.com/forever/skill=202/engineering",
-  "scraped_at": "2026-11-04T17:59:35.798683+00:00",
+  "scraped_at": "2026-11-07T12:36:04.220007+00:00",
   "recipes": [
     {
       "id": 1293088,
@@ -10927,7 +10927,8 @@
     "249425": {
       "name": "Bauxite",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "2996": {
       "name": "Bolt of Linen Cloth",
@@ -11007,7 +11008,8 @@
     "249428": {
       "name": "Pristine Hide",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "260802": {
       "name": "EZ-Thro Bronze Mortar",
@@ -11097,7 +11099,8 @@
     "249429": {
       "name": "Pristine Scale",
       "sell_price": 375,
-      "buy_price": 0
+      "buy_price": 1500,
+      "orgrimmar_vendor": false
     },
     "260815": {
       "name": "EZ-Thro Shell",
@@ -11142,12 +11145,14 @@
     "249426": {
       "name": "Pitchblende",
       "sell_price": 375,
-      "buy_price": 0
+      "buy_price": 1500,
+      "orgrimmar_vendor": false
     },
     "248822": {
       "name": "Death Lotus",
       "sell_price": 1500,
-      "buy_price": 0
+      "buy_price": 6000,
+      "orgrimmar_vendor": false
     },
     "260822": {
       "name": "Ultrasafe Rechargeable Battery",
@@ -11187,7 +11192,8 @@
     "248820": {
       "name": "Torbernite",
       "sell_price": 15000,
-      "buy_price": 0
+      "buy_price": 60000,
+      "orgrimmar_vendor": false
     },
     "248823": {
       "name": "Marefoil",
@@ -11257,7 +11263,8 @@
     "249391": {
       "name": "Pyrite",
       "sell_price": 100,
-      "buy_price": 0
+      "buy_price": 400,
+      "orgrimmar_vendor": false
     },
     "274048": {
       "name": "9-60 Battery Pack",

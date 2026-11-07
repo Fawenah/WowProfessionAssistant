@@ -2,7 +2,7 @@
   "profession": "leatherworking",
   "skill_id": 165,
   "url": "https://www.wowhead.com/forever/skill=165/leatherworking",
-  "scraped_at": "2026-11-04T18:38:51.450903+00:00",
+  "scraped_at": "2026-11-07T12:37:43.403869+00:00",
   "recipes": [
     {
       "id": 1301454,
@@ -2135,7 +2135,9 @@
         "gray": 80
       },
       "learned_at": 75,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -2312,7 +2314,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -2443,7 +2447,9 @@
         "gray": 105
       },
       "learned_at": 100,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -4499,7 +4505,9 @@
         "gray": 80
       },
       "learned_at": 75,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -4676,7 +4684,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -4807,7 +4817,9 @@
         "gray": 105
       },
       "learned_at": 100,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -15876,7 +15888,9 @@
         "gray": 80
       },
       "learned_at": 75,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -16053,7 +16067,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -16184,7 +16200,9 @@
         "gray": 105
       },
       "learned_at": 100,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -17405,7 +17423,9 @@
         "gray": 80
       },
       "learned_at": 75,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -17582,7 +17602,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -17713,7 +17735,9 @@
         "gray": 105
       },
       "learned_at": 100,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -18173,7 +18197,9 @@
         "gray": 80
       },
       "learned_at": 75,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -18350,7 +18376,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -18481,7 +18509,9 @@
         "gray": 105
       },
       "learned_at": 100,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -20192,7 +20222,9 @@
         "gray": 80
       },
       "learned_at": 75,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -20369,7 +20401,9 @@
         "gray": 130
       },
       "learned_at": 125,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -20500,7 +20534,9 @@
         "gray": 105
       },
       "learned_at": 100,
-      "source": [],
+      "source": [
+        2
+      ],
       "cooldown_seconds": null,
       "reagents": [
         {
@@ -22661,7 +22697,8 @@
     "249429": {
       "name": "Pristine Scale",
       "sell_price": 375,
-      "buy_price": 0
+      "buy_price": 1500,
+      "orgrimmar_vendor": false
     },
     "248824": {
       "name": "Fel Hide",
@@ -22772,12 +22809,14 @@
     "249428": {
       "name": "Pristine Hide",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "249427": {
       "name": "Pristine Leather",
       "sell_price": 125,
-      "buy_price": 0
+      "buy_price": 500,
+      "orgrimmar_vendor": false
     },
     "252591": {
       "name": "Mender's Mail Belt",
