@@ -2,7 +2,7 @@
   "profession": "tailoring",
   "skill_id": 197,
   "url": "https://www.wowhead.com/forever/skill=197/tailoring",
-  "scraped_at": "2026-11-04T19:07:29.451886+00:00",
+  "scraped_at": "2026-11-07T12:38:09.369025+00:00",
   "recipes": [
     {
       "id": 12081,
@@ -963,12 +963,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
+        "orange": 0,
         "yellow": 205,
         "green": 220,
         "gray": 235
       },
-      "learned_at": 190,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -1032,12 +1032,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
+        "orange": 0,
         "yellow": 205,
         "green": 220,
         "gray": 235
       },
-      "learned_at": 190,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -1128,12 +1128,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
+        "orange": 0,
         "yellow": 205,
         "green": 220,
         "gray": 235
       },
-      "learned_at": 190,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -1753,12 +1753,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 205,
+        "orange": 0,
         "yellow": 210,
         "green": 212,
         "gray": 215
       },
-      "learned_at": 205,
+      "learned_at": 210,
       "source": [
         6
       ],
@@ -2385,12 +2385,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 200,
+        "orange": 0,
         "yellow": 215,
         "green": 230,
         "gray": 245
       },
-      "learned_at": 200,
+      "learned_at": 215,
       "source": [
         6
       ],
@@ -3717,12 +3717,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 205,
+        "orange": 0,
         "yellow": 220,
         "green": 235,
         "gray": 250
       },
-      "learned_at": 205,
+      "learned_at": 220,
       "source": [
         6
       ],
@@ -12320,12 +12320,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 195,
+        "orange": 0,
         "yellow": 210,
         "green": 225,
         "gray": 240
       },
-      "learned_at": 195,
+      "learned_at": 210,
       "source": [
         6
       ],
@@ -13174,12 +13174,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 210,
+        "orange": 0,
         "yellow": 225,
         "green": 240,
         "gray": 255
       },
-      "learned_at": 210,
+      "learned_at": 225,
       "source": [
         6
       ],
@@ -14088,12 +14088,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 200,
+        "orange": 0,
         "yellow": 215,
         "green": 230,
         "gray": 245
       },
-      "learned_at": 200,
+      "learned_at": 215,
       "source": [
         6
       ],
@@ -14130,12 +14130,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 190,
+        "orange": 0,
         "yellow": 205,
         "green": 220,
         "gray": 235
       },
-      "learned_at": 190,
+      "learned_at": 205,
       "source": [
         6
       ],
@@ -14204,12 +14204,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 175,
+        "orange": 0,
         "yellow": 190,
         "green": 205,
         "gray": 220
       },
-      "learned_at": 175,
+      "learned_at": 190,
       "source": [
         6
       ],
@@ -14241,12 +14241,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 180,
+        "orange": 0,
         "yellow": 195,
         "green": 210,
         "gray": 225
       },
-      "learned_at": 180,
+      "learned_at": 195,
       "source": [
         6
       ],
@@ -14278,12 +14278,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 195,
+        "orange": 0,
         "yellow": 210,
         "green": 225,
         "gray": 240
       },
-      "learned_at": 195,
+      "learned_at": 210,
       "source": [
         6
       ],
@@ -14954,12 +14954,12 @@
         "max_qty": 1
       },
       "skill_ranges": {
-        "orange": 195,
+        "orange": 0,
         "yellow": 200,
         "green": 205,
         "gray": 210
       },
-      "learned_at": 195,
+      "learned_at": 200,
       "source": [
         6
       ],
@@ -18489,12 +18489,14 @@
     "249429": {
       "name": "Pristine Scale",
       "sell_price": 375,
-      "buy_price": 0
+      "buy_price": 1500,
+      "orgrimmar_vendor": false
     },
     "249428": {
       "name": "Pristine Hide",
       "sell_price": 250,
-      "buy_price": 0
+      "buy_price": 1000,
+      "orgrimmar_vendor": false
     },
     "14156": {
       "name": "Bottomless Bag",
@@ -18784,7 +18786,8 @@
     "13468": {
       "name": "Black Lotus",
       "sell_price": 1000,
-      "buy_price": 0
+      "buy_price": 4000,
+      "orgrimmar_vendor": false
     },
     "22252": {
       "name": "Satchel of Cenarius",
@@ -18875,7 +18878,8 @@
     "249427": {
       "name": "Pristine Leather",
       "sell_price": 125,
-      "buy_price": 0
+      "buy_price": 500,
+      "orgrimmar_vendor": false
     },
     "253889": {
       "name": "Pristine Boots",
@@ -18910,7 +18914,8 @@
     "249391": {
       "name": "Pyrite",
       "sell_price": 100,
-      "buy_price": 0
+      "buy_price": 400,
+      "orgrimmar_vendor": false
     },
     "253899": {
       "name": "Shining Boots",
