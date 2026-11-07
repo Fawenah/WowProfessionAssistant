@@ -35,7 +35,7 @@ from rich import box
 
 DATA_DIR   = Path(__file__).parent / "data"
 PRICES_PATH = Path(__file__).parent / "prices" / "prices.json"
-console = Console(width=110)
+console = Console(width=135)
 
 
 # ---------------------------------------------------------------------------
@@ -159,6 +159,7 @@ def analyze(data: dict, max_skill: int, prices: dict) -> list[dict]:
 
         # Resolve craftable intermediates (e.g. Bolt of Cloth → raw cloth).
         player_mat = player_mats[0]
+        required_skill = recipe.get("learned_at", 0)
         intermediate = item_to_recipe.get(int(player_mat["item_id"]))
         if intermediate:
             int_reagents = intermediate["reagents"]
@@ -175,6 +176,8 @@ def analyze(data: dict, max_skill: int, prices: dict) -> list[dict]:
                 )
             ]
             if len(int_player) == 1:
+                # The intermediate must be crafted too, so its skill counts.
+                required_skill = max(required_skill, intermediate.get("learned_at", 0))
                 raw = int_player[0]
                 raw_item = items.get(str(raw["item_id"]), {})
                 for vm in int_vendor:
@@ -209,6 +212,7 @@ def analyze(data: dict, max_skill: int, prices: dict) -> list[dict]:
 
         results.append({
             "recipe_name":        recipe["name"],
+            "required_skill":     required_skill,
             "vendor_income":      vendor_income,
             "vendor_mats":        vendor_mats,
             "vendor_mat_cost":    vendor_mat_cost,
@@ -250,6 +254,7 @@ def display(results: list[dict], profession: str, prices_meta: dict | None) -> N
     )
 
     table.add_column("Recipe",      style="bold white", no_wrap=True)
+    table.add_column("Skill",       justify="right",    no_wrap=True)
     table.add_column("Sell",        justify="right",    no_wrap=True)
     table.add_column("Fixed",       justify="right",    no_wrap=True)
     table.add_column("Player Mat",  style="yellow",     no_wrap=True)
@@ -274,6 +279,7 @@ def display(results: list[dict], profession: str, prices_meta: dict | None) -> N
 
         row = [
             r["recipe_name"],
+            str(r["required_skill"]),
             copper_to_str(r["vendor_income"]),
             mat_cost_str,
             player_mat_str,
@@ -299,6 +305,7 @@ def display(results: list[dict], profession: str, prices_meta: dict | None) -> N
         footer = (
             f"\n[dim]{len(results)} recipes shown. "
             "Sorted by estimated profit. "
+            "\n'Skill' = profession skill required to craft (incl. intermediate)."
             "\n'Sell' = item vendor price."
             "\n'Fixed' = cost of vendor-sourced materials."
             "\n'Max' = break-even price per unit of the player-sourced material. "
@@ -346,6 +353,7 @@ def display_all(rows: list[dict], prices_meta: dict) -> None:
 
     table.add_column("Profession",  style="cyan",       no_wrap=True)
     table.add_column("Recipe",      style="bold white", no_wrap=True)
+    table.add_column("Skill",       justify="right",    no_wrap=True)
     table.add_column("Sell",        justify="right",    no_wrap=True)
     table.add_column("Fixed",       justify="right",    no_wrap=True)
     table.add_column("Player Mat",  style="yellow",     no_wrap=True)
@@ -363,6 +371,7 @@ def display_all(rows: list[dict], prices_meta: dict) -> None:
         table.add_row(
             r["profession"],
             r["recipe_name"],
+            str(r["required_skill"]),
             copper_to_str(r["vendor_income"]),
             mat_cost_str,
             f"{pm['quantity']}× {pm['name']}",
